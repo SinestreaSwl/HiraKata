@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_card"
+    android:elevation="8dp">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/infoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Apa Itu Hiragana?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A141A"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Dialog Detail About Hiragana -->
+    <TextView
+        android:id="@+id/infoContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Hiragana Adalah Salah Satu Dari Tiga Sistem Penulisan Utama Dalam Bahasa Jepang. Umumnya Digunakan Untuk Menulis Kata-kata Asli Jepang, Partikel, Dan Akhiran Kata Kerja \n\nPada Huruf Dibawah Kamu Bisa Menekan Semua Huruf Yang Ada Untuk Melihat Detail Dari Setiap Hurufnya. \n\nTahan Huruf Yang Di Pilih Untuk Menandai dan Membatalkan Tanda Jika Sudah Menandai Nya."
+        android:textSize="16sp"
+        android:textColor="#555" />
+
+    <!-- Button Close Dialog -->
+    <Button
+        android:id="@+id/btnCloseInfo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Yoshh! Wakarimashita!!"
+        android:backgroundTint="#F48FB1"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+<!-- File Untuk Menampilkan Informasi Lebih Detail Mengenai Hiragana -->

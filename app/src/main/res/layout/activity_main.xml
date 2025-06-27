@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="70dp"
+    android:background="@drawable/bg_main_gradient"
+    tools:context=".MainActivity">
+
+    <!-- Title Text Session-->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hirakata_logo"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Hiragana Menu Button Session-->
+    <Button
+        android:id="@+id/hiraganaBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Hiragana"
+        android:backgroundTint="#FF19A5"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <!-- Katakana Menu Button Session -->
+    <Button
+        android:id="@+id/katakanaBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Katakana"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FF19A5"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <!-- Quiz Menu Button Session -->
+    <Button
+        android:id="@+id/quizBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FF19A5"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</LinearLayout>
+
+<!-- File Untuk Menampilkan Menu Utama Aplikasi -->

@@ -1,0 +1,14 @@
+package com.example.hirakata.util
+
+import android.content.Context
+import com.example.hirakata.model.HiraganaItem
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+
+object JsonLoader {
+    fun loadHiragana (context: Context): List<HiraganaItem> {
+        val json = context.assets.open("hiragana.json").bufferedReader().use { it.readText() }
+        val listType = object : TypeToken<List<HiraganaItem>>() {}.type
+        return Gson().fromJson(json, listType)
+    }
+}

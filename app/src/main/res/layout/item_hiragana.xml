@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hiraganaCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:padding="12dp"
+    android:background="@drawable/bg_hiragana_item"
+    android:layout_marginBottom="12dp"
+    android:gravity="center"
+    android:minHeight="100dp">
+
+    <!-- Text View Untuk Menampilkan Karakter Hiragana -->
+    <TextView
+        android:id="@+id/tvHiragana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="あ"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#1A141A" />
+
+    <!-- Text View Untuk Romaji Dari Karakter Hiragana -->
+    <TextView
+        android:id="@+id/tvRomaji"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="a"
+        android:textSize="16sp"
+        android:textColor="#666"
+        android:visibility="gone" />
+
+    <!-- Text View Untuk Vocabulary -->
+    <TextView
+        android:id="@+id/tvVocab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="あさ - 'asa' - pagi\nあめ - 'ame' - hujan"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</LinearLayout>
+
+<!-- File Untuk Menampilkan Isi Dari Card Hiragana -->

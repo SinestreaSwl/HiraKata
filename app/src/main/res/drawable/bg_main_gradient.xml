@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FFFBFD"
+                android:centerColor="#FF85C9"
+                android:endColor="#FF92B8"
+                android:angle="90"/>
+        </shape>
+    </item>
+</layer-list>
+
+<!-- File Warna Background Untuk Main Activity -->
