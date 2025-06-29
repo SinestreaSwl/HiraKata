@@ -4,21 +4,39 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
-    tools:context=".QuizActivity">
+    android:padding="24dp">
 
+    <TextView
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal" />
+    
     <TextView
         android:id="@+id/tvQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="8dp"
         android:text="Soal"
         android:textSize="18sp"
-        android:layout_marginBottom="24dp" />
+        android:background="@drawable/bg_chat_bubble"
+        android:textAlignment="center"
+        android:textColor="#1A141A" />
 
-    <RadioGroup
-        android:id="@+id/rgOptions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <GridLayout
+        android:id="@+id/glOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp" />
 
     <Button
         android:id="@+id/btnNext"
