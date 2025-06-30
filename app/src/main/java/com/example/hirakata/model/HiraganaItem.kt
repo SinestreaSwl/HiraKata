@@ -1,3 +1,4 @@
+// File untuk model data apa saja yang digunakan pada tiap huruf yang ada didalam aplikasi
 package com.example.hirakata.model
 
 import android.os.Parcelable

@@ -1,6 +1,8 @@
+// File Adapter Untuk 'RecyclerView' yang berguna untuk
+// menampilkan daftar-daftar huruf hiragana
+
 package com.example.hirakata.adapter
 
-import android.content.Intent
 import android.view.*
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity

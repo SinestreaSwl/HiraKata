@@ -1,3 +1,4 @@
+// File activity yang digunakan untuk menampilkan daftar huruf dari sesi 'Basic Hiragana'
 package com.example.hirakata
 
 import android.os.Bundle

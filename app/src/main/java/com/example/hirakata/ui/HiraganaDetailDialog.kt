@@ -1,9 +1,9 @@
+// File class untuk menampilkan detail huruf hiragana yang dipilih
 package com.example.hirakata.ui
 
 import android.app.Dialog
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.View
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
 import com.example.hirakata.R

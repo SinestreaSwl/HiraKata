@@ -1,3 +1,4 @@
+// File activity yang digunakan untuk menampilkan daftar sesi huruf hiragana dan mendirect ke sesi yang dipilih
 package com.example.hirakata
 
 import android.content.Intent

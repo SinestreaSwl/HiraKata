@@ -1,3 +1,4 @@
+// File untuk model data yang digunakan untuk quiz
 package com.example.hirakata.model
 
 data class QuizQuestion (

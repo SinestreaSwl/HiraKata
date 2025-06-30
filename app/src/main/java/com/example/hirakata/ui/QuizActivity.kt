@@ -1,3 +1,4 @@
+// File untuk menjalankan Quiz yang digunakan untuk membuka sesi baru
 package com.example.hirakata.ui
 
 import android.os.Bundle

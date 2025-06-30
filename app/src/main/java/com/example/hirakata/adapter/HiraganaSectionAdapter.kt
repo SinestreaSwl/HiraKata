@@ -1,3 +1,4 @@
+// File adapter untuk menampilkan daftar sesi yang ada di main menu 'hiragana'
 package com.example.hirakata.adapter
 
 import android.app.AlertDialog

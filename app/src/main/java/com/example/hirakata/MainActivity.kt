@@ -1,3 +1,4 @@
+// File activity main menu, yang menampilkan 3 sesi menu utama dalam aplikasi
 package com.example.hirakata
 
 import android.content.Intent

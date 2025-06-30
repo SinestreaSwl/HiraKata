@@ -1,7 +1,7 @@
+// File yang digunakan untuk menyimpan status sesi yang telah dibuka
 package com.example.hirakata.util
 
 import android.content.Context
-import android.content.SharedPreferences
 
 object ProgressManager {
 

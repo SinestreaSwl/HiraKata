@@ -1,3 +1,4 @@
+// File untuk ngeload data dari file json dari folder /raw /assets dll dengan gson
 package com.example.hirakata.util
 
 import android.content.Context
