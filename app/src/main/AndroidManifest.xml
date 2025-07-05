@@ -13,16 +13,13 @@
         android:theme="@style/Theme.HiraKata"
         tools:targetApi="31">
         <activity
-            android:name=".ui.QuizActivity"
+            android:name=".quiz.QuizActivity"
             android:exported="false" />
         <activity
-            android:name=".BasicHiragana"
+            android:name=".ui.hiragana.BasicHiragana"
             android:exported="false" />
         <activity
-            android:name=".ItemSection"
-            android:exported="false" />
-        <activity
-            android:name=".HiraganaMenuActivity"
+            android:name=".ui.hiragana.HiraganaMenuActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

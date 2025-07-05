@@ -1,20 +1,23 @@
 // File adapter untuk menampilkan daftar sesi yang ada di main menu 'hiragana'
-package com.example.hirakata.adapter
+
+package com.example.hirakata.ui.hiragana
 
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
-import android.view.*
-import android.widget.*
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hirakata.R
 import com.example.hirakata.model.HiraganaSection
-import com.example.hirakata.ui.QuizActivity
+import com.example.hirakata.quiz.QuizActivity
 
 class HiraganaSectionAdapter (
-      private val context: Context,
-      private val sections: List<HiraganaSection>,
-      private val onItemClick: (HiraganaSection) -> Unit
+    private val context: Context,
+    private val sections: List<HiraganaSection>,
+    private val onItemClick: (HiraganaSection) -> Unit
 ) : RecyclerView.Adapter<HiraganaSectionAdapter.ViewHolder>() {
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

@@ -1,0 +1,553 @@
+[
+
+  {
+    "question": "Apa bacaan dari huruf が?",
+    "options": [
+      "bu",
+      "bo",
+      "be",
+      "ga"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ga'?",
+    "options": [
+      "が",
+      "ば",
+      "ぶ",
+      "ぎ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぎ?",
+    "options": [
+      "be",
+      "po",
+      "gi",
+      "bi"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'gi'?",
+    "options": [
+      "で",
+      "ぶ",
+      "じ",
+      "ぎ"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぐ?",
+    "options": [
+      "ga",
+      "ge",
+      "gu",
+      "zo"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'gu'?",
+    "options": [
+      "づ",
+      "ぱ",
+      "ば",
+      "ぐ"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Apa bacaan dari huruf げ?",
+    "options": [
+      "ge",
+      "be",
+      "ji",
+      "zo"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ge'?",
+    "options": [
+      "げ",
+      "が",
+      "ぼ",
+      "ぽ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ご?",
+    "options": [
+      "bu",
+      "da",
+      "go",
+      "ba"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'go'?",
+    "options": [
+      "ぐ",
+      "で",
+      "べ",
+      "ご"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ざ?",
+    "options": [
+      "pe",
+      "zu",
+      "bo",
+      "za"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'za'?",
+    "options": [
+      "び",
+      "ぺ",
+      "ざ",
+      "ぎ"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf じ?",
+    "options": [
+      "ji",
+      "po",
+      "zu",
+      "ze"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ji'?",
+    "options": [
+      "ど",
+      "ず",
+      "じ",
+      "ぢ"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ず?",
+    "options": [
+      "pu",
+      "zu",
+      "ji",
+      "gu"
+    ],
+    "correctAnswer": 1
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'zu'?",
+    "options": [
+      "ず",
+      "ぎ",
+      "べ",
+      "ぶ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぜ?",
+    "options": [
+      "ba",
+      "da",
+      "ji",
+      "ze"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ze'?",
+    "options": [
+      "が",
+      "ぼ",
+      "ぜ",
+      "で"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぞ?",
+    "options": [
+      "pi",
+      "ji",
+      "zo",
+      "za"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'zo'?",
+    "options": [
+      "ぞ",
+      "で",
+      "ざ",
+      "ぺ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf だ?",
+    "options": [
+      "ge",
+      "de",
+      "da",
+      "zu"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'da'?",
+    "options": [
+      "げ",
+      "ぢ",
+      "ど",
+      "だ"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぢ?",
+    "options": [
+      "zu",
+      "ji",
+      "za",
+      "de"
+    ],
+    "correctAnswer": 1
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ji'?",
+    "options": [
+      "び",
+      "だ",
+      "ぢ",
+      "ど"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf づ?",
+    "options": [
+      "za",
+      "ji",
+      "zu",
+      "pi"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'zu'?",
+    "options": [
+      "ぺ",
+      "ど",
+      "づ",
+      "ざ"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf で?",
+    "options": [
+      "de",
+      "ba",
+      "be",
+      "ji"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'de'?",
+    "options": [
+      "ご",
+      "が",
+      "で",
+      "ぐ"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ど?",
+    "options": [
+      "pa",
+      "ge",
+      "bu",
+      "do"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'do'?",
+    "options": [
+      "ど",
+      "ざ",
+      "だ",
+      "べ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ば?",
+    "options": [
+      "bi",
+      "ba",
+      "gi",
+      "zo"
+    ],
+    "correctAnswer": 1
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ba'?",
+    "options": [
+      "ば",
+      "ぷ",
+      "び",
+      "ざ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf び?",
+    "options": [
+      "go",
+      "pu",
+      "bi",
+      "zu"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'bi'?",
+    "options": [
+      "ぐ",
+      "び",
+      "ど",
+      "ぶ"
+    ],
+    "correctAnswer": 1
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぶ?",
+    "options": [
+      "zu",
+      "be",
+      "bu",
+      "pu"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'bu'?",
+    "options": [
+      "ぜ",
+      "ぎ",
+      "ぴ",
+      "ぶ"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Apa bacaan dari huruf べ?",
+    "options": [
+      "po",
+      "zu",
+      "be",
+      "ze"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'be'?",
+    "options": [
+      "ざ",
+      "ず",
+      "べ",
+      "ぱ"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぼ?",
+    "options": [
+      "gi",
+      "ba",
+      "po",
+      "bo"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'bo'?",
+    "options": [
+      "ぎ",
+      "ぼ",
+      "で",
+      "ぱ"
+    ],
+    "correctAnswer": 1
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぱ?",
+    "options": [
+      "zo",
+      "pe",
+      "pa",
+      "ji"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'pa'?",
+    "options": [
+      "ざ",
+      "ぽ",
+      "ぱ",
+      "ぶ"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぴ?",
+    "options": [
+      "po",
+      "pe",
+      "ji",
+      "pi"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'pi'?",
+    "options": [
+      "ぴ",
+      "ご",
+      "ぶ",
+      "ぢ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぷ?",
+    "options": [
+      "pu",
+      "ga",
+      "bi",
+      "pi"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'pu'?",
+    "options": [
+      "ぷ",
+      "ず",
+      "だ",
+      "ぺ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぺ?",
+    "options": [
+      "bu",
+      "do",
+      "pe",
+      "ge"
+    ],
+    "correctAnswer": 2
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'pe'?",
+    "options": [
+      "ぺ",
+      "べ",
+      "づ",
+      "だ"
+    ],
+    "correctAnswer": 0
+  },
+
+  {
+    "question": "Apa bacaan dari huruf ぽ?",
+    "options": [
+      "pi",
+      "bi",
+      "bu",
+      "po"
+    ],
+    "correctAnswer": 3
+  },
+
+  {
+    "question": "Huruf mana yang mewakili bunyi 'po'?",
+    "options": [
+      "で",
+      "ぽ",
+      "ぐ",
+      "ぜ"
+    ],
+    "correctAnswer": 1
+  }
+
+]

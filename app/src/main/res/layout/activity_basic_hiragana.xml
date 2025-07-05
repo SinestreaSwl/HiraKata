@@ -53,6 +53,6 @@
     android:id="@+id/rvHiragana"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BasicHiragana" />
+    tools:context=".ui.hiragana.BasicHiragana" />
 
 </LinearLayout>

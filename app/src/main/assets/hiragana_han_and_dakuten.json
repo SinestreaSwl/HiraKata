@@ -1,0 +1,225 @@
+[
+  {
+    "hiragana": "が",
+    "romaji": "ga",
+    "vocabList": [
+      {"hiragana": "がくせい", "romaji": "gakusei", "means": "mahasiswa"},
+      {"hiragana": "がっこう", "romaji": "gakkou", "means": "sekolah"}
+    ]
+  },
+
+  {
+    "hiragana": "ぎ",
+    "romaji": "gi",
+    "vocabList": [
+      {"hiragana": "ぎんこう", "romaji": "ginkou", "means": "bank"},
+      {"hiragana": "ぎし", "romaji": "gishi", "means": "insinyur"}
+    ]
+  },
+
+  {
+    "hiragana": "ぐ",
+    "romaji": "gu",
+    "vocabList": [
+      {"hiragana": "ぐあい", "romaji": "guai", "means": "keadaan/kondisi"},
+      {"hiragana": "ぐんたい", "romaji": "guntai", "means": "militer"}
+    ]
+  },
+
+  {
+    "hiragana": "げ",
+    "romaji": "ge",
+    "vocabList": [
+      {"hiragana": "げつようび", "romaji": "getsuyoubi", "means": "Senin"},
+      {"hiragana": "げんき", "romaji": "genki", "means": "sehat/bersemangat"}
+    ]
+  },
+
+  {
+    "hiragana": "ご",
+    "romaji": "go",
+    "vocabList": [
+      {"hiragana": "ごご", "romaji": "gogo", "means": "sore (p.m.)"},
+      {"hiragana": "ごはん", "romaji": "gohan", "means": "nasi/makanan"}
+    ]
+  },
+
+  {
+    "hiragana": "ざ",
+    "romaji": "za",
+    "vocabList": [
+      {"hiragana": "ざっし", "romaji": "zasshi", "means": "majalah"},
+      {"hiragana": "ざいりょう", "romaji": "zairyou", "means": "bahan/material"}
+    ]
+  },
+
+  {
+    "hiragana": "じ",
+    "romaji": "ji",
+    "vocabList": [
+      {"hiragana": "じしょ", "romaji": "jisho", "means": "kamus"},
+      {"hiragana": "じてんしゃ", "romaji": "jitensha", "means": "sepeda"}
+    ]
+  },
+
+  {
+    "hiragana": "ず",
+    "romaji": "zu",
+    "vocabList": [
+      {"hiragana": "ずっと", "romaji": "zutto", "means": "selalu"},
+      {"hiragana": "ずこう", "romaji": "zukou", "means": "kerajinan tangan"}
+    ]
+  },
+
+  {
+    "hiragana": "ぜ",
+    "romaji": "ze",
+    "vocabList": [
+      {"hiragana": "ぜったい", "romaji": "zettai", "means": "pasti"},
+      {"hiragana": "ぜいきん", "romaji": "zeikin", "means": "pajak"}
+    ]
+  },
+
+  {
+    "hiragana": "ぞ",
+    "romaji": "zo",
+    "vocabList": [
+      {"hiragana": "ぞう", "romaji": "zou", "means": "gajah"},
+      {"hiragana": "ぞんじます", "romaji": "zonjimasu", "means": "tahu (bentuk hormat)"}
+    ]
+  },
+
+  {
+    "hiragana": "だ",
+    "romaji": "da",
+    "vocabList": [
+      {"hiragana": "だいがく", "romaji": "daigaku", "means": "universitas"},
+      {"hiragana": "だめ", "romaji": "dame", "means": "tidak boleh"}
+    ]
+  },
+
+  {
+    "hiragana": "ぢ",
+    "romaji": "ji",
+    "vocabList": [
+      {"hiragana": "はなぢ", "romaji": "hanaji", "means": "mimisan"}
+    ]
+  },
+
+  {
+    "hiragana": "づ",
+    "romaji": "zu",
+    "vocabList": [
+      {"hiragana": "つづく", "romaji": "tsuzuku", "means": "berlanjut"}
+    ]
+  },
+
+  {
+    "hiragana": "で",
+    "romaji": "de",
+    "vocabList": [
+      {"hiragana": "でんしゃ", "romaji": "densha", "means": "kereta listrik"},
+      {"hiragana": "でぐち", "romaji": "deguchi", "means": "pintu keluar"}
+    ]
+  },
+
+  {
+    "hiragana": "ど",
+    "romaji": "do",
+    "vocabList": [
+      {"hiragana": "どようび", "romaji": "doyoubi", "means": "Sabtu"},
+      {"hiragana": "どうぶつ", "romaji": "doubutsu", "means": "hewan"}
+    ]
+  },
+
+  {
+    "hiragana": "ば",
+    "romaji": "ba",
+    "vocabList": [
+      {"hiragana": "ばしょ", "romaji": "basho", "means": "tempat"},
+      {"hiragana": "ばんごう", "romaji": "bangou", "means": "nomor"}
+    ]
+  },
+
+  {
+    "hiragana": "び",
+    "romaji": "bi",
+    "vocabList": [
+      {"hiragana": "びょういん", "romaji": "byouin", "means": "rumah sakit"},
+      {"hiragana": "びじゅつかん", "romaji": "bijutsukan", "means": "museum seni"}
+    ]
+  },
+
+  {
+    "hiragana": "ぶ",
+    "romaji": "bu",
+    "vocabList": [
+      {"hiragana": "ぶんか", "romaji": "bunka", "means": "budaya"},
+      {"hiragana": "ぶちょう", "romaji": "buchou", "means": "kepala divisi"}
+    ]
+  },
+
+  {
+    "hiragana": "べ",
+    "romaji": "be",
+    "vocabList": [
+      {"hiragana": "べんきょう", "romaji": "benkyou", "means": "belajar"},
+      {"hiragana": "べつ", "romaji": "betsu", "means": "lain"}
+    ]
+  },
+
+  {
+    "hiragana": "ぼ",
+    "romaji": "bo",
+    "vocabList": [
+      {"hiragana": "ぼうし", "romaji": "boushi", "means": "topi"},
+      {"hiragana": "ぼく", "romaji": "boku", "means": "aku (maskulin)"}
+    ]
+  },
+
+  {
+    "hiragana": "ぱ",
+    "romaji": "pa",
+    "vocabList": [
+      {"hiragana": "パーティー", "romaji": "paatii", "means": "pesta"},
+      {"hiragana": "ぱん", "romaji": "pan", "means": "roti"}
+    ]
+  },
+
+  {
+    "hiragana": "ぴ",
+    "romaji": "pi",
+    "vocabList": [
+      {"hiragana": "ぴったり", "romaji": "pittari", "means": "pas/cocok"},
+      {"hiragana": "ぴかぴか", "romaji": "pikapika", "means": "berkilau"}
+    ]
+  },
+
+  {
+    "hiragana": "ぷ",
+    "romaji": "pu",
+    "vocabList": [
+      {"hiragana": "ぷらす", "romaji": "purasu", "means": "plus"},
+      {"hiragana": "ぷれぜんと", "romaji": "purezento", "means": "hadiah"}
+    ]
+  },
+
+  {
+    "hiragana": "ぺ",
+    "romaji": "pe",
+    "vocabList": [
+      {"hiragana": "ぺらぺら", "romaji": "perapera", "means": "fasih"},
+      {"hiragana": "ぺこぺこ", "romaji": "pekopeko", "means": "sangat lapar"}
+    ]
+  },
+
+  {
+    "hiragana": "ぽ",
+    "romaji": "po",
+    "vocabList": [
+      {"hiragana": "ぽけっと", "romaji": "poketto", "means": "saku"},
+      {"hiragana": "ぽすと", "romaji": "posuto", "means": "kotak pos"}
+    ]
+  }
+
+]

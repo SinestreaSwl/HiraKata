@@ -1,6 +1,8 @@
 // File activity yang digunakan untuk menampilkan daftar huruf dari sesi 'Basic Hiragana'
-package com.example.hirakata
 
+package com.example.hirakata.ui.hiragana
+
+import android.app.AlertDialog
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
@@ -8,6 +10,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.hirakata.R
 import com.example.hirakata.adapter.HiraganaAdapter
 import com.example.hirakata.util.JsonLoader
 
@@ -32,7 +35,7 @@ class BasicHiragana : AppCompatActivity() {
 
                infoBtn.setOnClickListener {
                    val dialogView = layoutInflater.inflate(R.layout.dialog_info_hiragana, null)
-                   val dialog = android.app.AlertDialog.Builder(this)
+                   val dialog = AlertDialog.Builder(this)
                        .setView(dialogView)
                        .create()
 

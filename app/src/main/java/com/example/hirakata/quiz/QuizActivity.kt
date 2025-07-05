@@ -1,8 +1,13 @@
 // File untuk menjalankan Quiz yang digunakan untuk membuka sesi baru
-package com.example.hirakata.ui
 
+package com.example.hirakata.quiz
+
+import android.app.AlertDialog
 import android.os.Bundle
-import android.widget.*
+import android.widget.Button
+import android.widget.GridLayout
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
@@ -31,12 +36,19 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
+        val quizKey = intent.getStringExtra("QUIZ_KEY")
+        if (quizKey == null) {
+            Toast.makeText(this, "Quiz Tidak Valid", Toast.LENGTH_SHORT).show()
+            finish()
+            return
+        }
+
         tvQuestionNumber = findViewById(R.id.tvQuestionNumber)
         tvQuestion = findViewById(R.id.tvQuestion)
         glOptions = findViewById(R.id.glOptions)
         btnNext = findViewById(R.id.btnNext)
 
-        loadQuestionsFromJson()
+        loadQuestionsFromJson(quizKey)
 
         btnNext.setOnClickListener {
 
@@ -62,8 +74,20 @@ class QuizActivity : AppCompatActivity() {
         }
     }
 
-    private fun loadQuestionsFromJson() {
-        val inputStream = resources.openRawResource(R.raw.basic_hiragana_quiz)
+    private fun loadQuestionsFromJson(quizKey: String) {
+
+        val fileResId = when (quizKey) {
+            "dakuten" -> R.raw.basic_hiragana_quiz
+            "yoon" -> R.raw.dakuten_handakuten_hiragana_quiz
+            "sokuon" -> R.raw.yoon_hiragana_quiz
+            else -> {
+                Toast.makeText(this, "Quiz Belum Tersedia", Toast.LENGTH_SHORT).show()
+                finish()
+                return
+            }
+        }
+
+        val inputStream = resources.openRawResource(fileResId)
         val reader = InputStreamReader(inputStream)
         val type = object : TypeToken<List<QuizQuestion>>() {}.type
         val allQuestions : List<QuizQuestion> = Gson().fromJson(reader, type)
@@ -122,12 +146,27 @@ class QuizActivity : AppCompatActivity() {
     }
 
     private fun showQuizResult() {
-            val builder = android.app.AlertDialog.Builder(this)
-            val message = if (score == totalQuestions) {
-                ProgressManager.unlock(this, "dakuten")
-                "Omedetou! Kamu Menjawab Semua Pertanyaan Dengan Benar! \n\nSkor: $score/$totalQuestions\nSesi Baru Telah Terbuka!"
+
+            val quizKey = intent.getStringExtra("QUIZ_KEY")
+            val builder = AlertDialog.Builder(this)
+            val message : String
+
+            if (score == totalQuestions) {
+                val nextKey = when (quizKey) {
+                    "basic" -> "dakuten"
+                    "dakuen" -> "yoon"
+                    "yoon" -> "sokuon"
+                    else -> null
+                }
+
+                nextKey?.let {
+                    ProgressManager.unlock(this, it)
+                }
+
+                message = "Omedetou! Kamu Menjawab Semua Pertanyaan Dengan Benar! \n\nSkor: $score/$totalQuestions\nSesi Baru Telah Terbuka!"
+
             } else {
-                "Skor Kamu: $score/$totalQuestions\n Coba Lagi Untuk Membuka Sesi Berikutnya Ya!"
+                message = "Skor Kamu: $score/$totalQuestions\n Coba Lagi Untuk Membuka Sesi Berikutnya Ya!"
             }
 
             builder.setTitle("Hasil Quiz")
