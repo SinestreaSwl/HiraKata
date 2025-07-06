@@ -54,9 +54,40 @@ class HiraganaMenuActivity : AppCompatActivity() {
 
                val adapter = HiraganaSectionAdapter(this, sections) { section ->
                    val intent = when (section.key) {
+
                        "basic" -> Intent(this, BasicHiragana::class.java)
-                       "dakuten", "yoon" -> Intent(this, QuizActivity::class.java).apply {
-                           putExtra("QUIZ_KEY", section.key)
+
+                       "dakuten" -> {
+                           if (!section.isUnlocked) {
+                               val quizIntent = Intent(this, QuizActivity::class.java).apply {
+                                   putExtra("QUIZ_KEY", "basic")
+                               }
+                               quizIntent
+                           } else {
+                               Intent(this, DakutenActivity::class.java)
+                           }
+                       }
+
+                       "yoon" -> {
+                           if (!section.isUnlocked) {
+                               val quizIntent = Intent(this, QuizActivity::class.java).apply {
+                                   putExtra("QUIZ_KEY", "dakuten")
+                               }
+                               quizIntent
+                           } else {
+                               Intent(this, YoonActivity::class.java)
+                           }
+                       }
+
+                       "sokuon" -> {
+                           if (!section.isUnlocked) {
+                               val quizIntent = Intent(this, QuizActivity::class.java).apply {
+                                   putExtra("QUIZ_KEY", "yoon")
+                               }
+                               quizIntent
+                           } else {
+                               Intent(this, SokuonActivity::class.java)
+                           }
                        }
 
                        else -> null

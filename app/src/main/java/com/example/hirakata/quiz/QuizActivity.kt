@@ -37,6 +37,7 @@ class QuizActivity : AppCompatActivity() {
         setContentView(R.layout.activity_quiz)
 
         val quizKey = intent.getStringExtra("QUIZ_KEY")
+        println("DEBUG : quizKey = $quizKey")
         if (quizKey == null) {
             Toast.makeText(this, "Quiz Tidak Valid", Toast.LENGTH_SHORT).show()
             finish()
@@ -77,9 +78,9 @@ class QuizActivity : AppCompatActivity() {
     private fun loadQuestionsFromJson(quizKey: String) {
 
         val fileResId = when (quizKey) {
-            "dakuten" -> R.raw.basic_hiragana_quiz
-            "yoon" -> R.raw.dakuten_handakuten_hiragana_quiz
-            "sokuon" -> R.raw.yoon_hiragana_quiz
+            "basic" -> R.raw.basic_hiragana_quiz
+            "dakuten" -> R.raw.dakuten_handakuten_hiragana_quiz
+            "yoon" -> R.raw.yoon_hiragana_quiz
             else -> {
                 Toast.makeText(this, "Quiz Belum Tersedia", Toast.LENGTH_SHORT).show()
                 finish()
@@ -152,9 +153,10 @@ class QuizActivity : AppCompatActivity() {
             val message : String
 
             if (score == totalQuestions) {
+
                 val nextKey = when (quizKey) {
                     "basic" -> "dakuten"
-                    "dakuen" -> "yoon"
+                    "dakuten" -> "yoon"
                     "yoon" -> "sokuon"
                     else -> null
                 }

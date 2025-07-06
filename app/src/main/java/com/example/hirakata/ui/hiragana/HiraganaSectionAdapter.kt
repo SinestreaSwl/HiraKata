@@ -43,8 +43,7 @@ class HiraganaSectionAdapter (
                              .setTitle("Sesi Terkunci")
                              .setMessage("Untuk Membuka Sesi '${section.title}', Kamu Harus Menyelesaikan Materi Quiz Dari Sesi Sebelumnya Terlebih Dahulu")
                              .setPositiveButton("Ikuzo!") { _, _ ->
-                                 val intent = Intent(context, QuizActivity::class.java)
-                                 context.startActivity(intent)
+                                 onItemClick(section)
                              }
                             .setNegativeButton("Nanti Dulu", null)
                             .show()

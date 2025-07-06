@@ -56,3 +56,5 @@
     tools:context=".ui.hiragana.BasicHiragana" />
 
 </LinearLayout>
+
+<!-- File Untuk Layout Character Section -->

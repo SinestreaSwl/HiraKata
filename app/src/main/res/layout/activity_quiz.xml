@@ -33,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
+        android:layout_gravity="center"
         android:orientation="horizontal"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
@@ -46,3 +47,5 @@
         android:layout_marginTop="24dp" />
 
 </LinearLayout>
+
+<!-- File Layout Untuk Section Quiz -->

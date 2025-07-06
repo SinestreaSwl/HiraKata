@@ -20,7 +20,7 @@ class BasicHiragana : AppCompatActivity() {
 
       override fun onCreate(savedInstanceState: Bundle?) {
                super.onCreate(savedInstanceState)
-               setContentView(R.layout.activity_basic_hiragana)
+               setContentView(R.layout.activity_layout_item)
 
                val backBtn : ImageButton = findViewById(R.id.btnBack)
                val infoBtn : ImageButton = findViewById(R.id.btnInfo)

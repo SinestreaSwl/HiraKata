@@ -14,7 +14,7 @@ class HiraganaDetailDialog (private val item: HiraganaItem) : DialogFragment() {
       override fun onCreateDialog(savedInstanceState: Bundle?) : Dialog {
 
                val dialog = Dialog(requireContext())
-               val view = LayoutInflater.from(context).inflate(R.layout.dialog_hiragana_detail, null)
+               val view = LayoutInflater.from(context).inflate(R.layout.dialog_character_detail, null)
 
                val tvBigHiragana = view.findViewById<TextView>(R.id.tvBigHiragana)
                val tvDetailRomaji = view.findViewById<TextView>(R.id.tvDetailRomaji)
