@@ -1,0 +1,164 @@
+[
+
+  {
+    "hiragana": "っか",
+    "romaji": "kka",
+    "vocabList": [
+      { "hiragana": "がっか", "romaji": "gakka", "means": "jurusan" }
+    ]
+  },
+
+  {
+    "hiragana": "っき",
+    "romaji": "kki",
+    "vocabList": [
+      { "hiragana": "がっき", "romaji": "gakki", "means": "alat musik" }
+    ]
+  },
+
+  {
+    "hiragana": "っく",
+    "romaji": "kku",
+    "vocabList": [
+      { "hiragana": "びっくり", "romaji": "bikkuri", "means": "terkejut" }
+    ]
+  },
+
+  {
+    "hiragana": "っけ",
+    "romaji": "kke",
+    "vocabList": [
+      { "hiragana": "にっけい", "romaji": "nikkei", "means": "keturunan Jepang" }
+    ]
+  },
+
+  {
+    "hiragana": "っこ",
+    "romaji": "kko",
+    "vocabList": [
+      { "hiragana": "がっこう", "romaji": "gakkou", "means": "sekolah" }
+    ]
+  },
+
+  {
+    "hiragana": "っさ",
+    "romaji": "ssa",
+    "vocabList": [
+      { "hiragana": "まっさお", "romaji": "massao", "means": "pucat" }
+    ]
+  },
+
+  {
+    "hiragana": "っし",
+    "romaji": "sshi",
+    "vocabList": [
+      { "hiragana": "ざっし", "romaji": "zasshi", "means": "majalah" }
+    ]
+  },
+
+  {
+    "hiragana": "っす",
+    "romaji": "ssu",
+    "vocabList": [
+      { "hiragana": "まっすぐ", "romaji": "massugu", "means": "lurus" }
+    ]
+  },
+
+  {
+    "hiragana": "っせ",
+    "romaji": "sse",
+    "vocabList": [
+      { "hiragana": "せっせと", "romaji": "sesseto", "means": "giat / rajin" }
+    ]
+  },
+
+  {
+    "hiragana": "っそ",
+    "romaji": "sso",
+    "vocabList": [
+      { "hiragana": "まっそく", "romaji": "massoku", "means": "dengan segera" }
+    ]
+  },
+
+  {
+    "hiragana": "った",
+    "romaji": "tta",
+    "vocabList": [
+      { "hiragana": "かった", "romaji": "katta", "means": "menang" }
+    ]
+  },
+
+  {
+    "hiragana": "っち",
+    "romaji": "cchi",
+    "vocabList": [
+      { "hiragana": "いっち", "romaji": "icchi", "means": "kesesuaian" }
+    ]
+  },
+
+  {
+    "hiragana": "っつ",
+    "romaji": "ttsu",
+    "vocabList": [
+      { "hiragana": "おっとつ", "romaji": "ottotsu", "means": "gelombang" }
+    ]
+  },
+
+  {
+    "hiragana": "って",
+    "romaji": "tte",
+    "vocabList": [
+      { "hiragana": "きって", "romaji": "kitte", "means": "perangko" }
+    ]
+  },
+
+  {
+    "hiragana": "っと",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "そっと", "romaji": "sotto", "means": "diam-diam" }
+    ]
+  },
+
+
+  {
+    "hiragana": "っぱ",
+    "romaji": "ppa",
+    "vocabList": [
+      { "hiragana": "きっぱり", "romaji": "kippari", "means": "dengan tegas" }
+    ]
+  },
+
+  {
+    "hiragana": "っぴ",
+    "romaji": "ppi",
+    "vocabList": [
+      { "hiragana": "しっぴつ", "romaji": "shippitsu", "means": "menulis" }
+    ]
+  },
+
+  {
+    "hiragana": "っぷ",
+    "romaji": "ppu",
+    "vocabList": [
+      { "hiragana": "しっぷ", "romaji": "shippu", "means": "kapal" }
+    ]
+  },
+
+  {
+    "hiragana": "っぺ",
+    "romaji": "ppe",
+    "vocabList": [
+      { "hiragana": "どっぺる", "romaji": "dopperu", "means": "doppelgänger" }
+    ]
+  },
+
+  {
+    "hiragana": "っぽ",
+    "romaji": "ppo",
+    "vocabList": [
+      { "hiragana": "いっぽ", "romaji": "ippo", "means": "satu langkah" }
+    ]
+  }
+
+]

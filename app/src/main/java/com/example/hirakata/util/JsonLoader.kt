@@ -7,8 +7,8 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 object JsonLoader {
-    fun loadHiragana (context: Context): List<HiraganaItem> {
-        val json = context.assets.open("hiragana.json").bufferedReader().use { it.readText() }
+    fun loadHiragana (context: Context, filename: String): List<HiraganaItem> {
+        val json = context.assets.open(filename).bufferedReader().use { it.readText() }
         val listType = object : TypeToken<List<HiraganaItem>>() {}.type
         return Gson().fromJson(json, listType)
     }

@@ -1,5 +1,6 @@
 // File class untuk menampilkan detail huruf hiragana yang dipilih
-package com.example.hirakata.ui
+
+package com.example.hirakata.ui.hiragana
 
 import android.app.Dialog
 import android.os.Bundle
@@ -8,7 +9,6 @@ import android.widget.TextView
 import androidx.fragment.app.DialogFragment
 import com.example.hirakata.R
 import com.example.hirakata.model.HiraganaItem
-
 
 class HiraganaDetailDialog (private val item: HiraganaItem) : DialogFragment() {
       override fun onCreateDialog(savedInstanceState: Bundle?) : Dialog {

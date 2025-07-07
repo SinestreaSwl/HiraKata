@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hirakata.R
 import com.example.hirakata.model.HiraganaItem
-import com.example.hirakata.ui.HiraganaDetailDialog
+import com.example.hirakata.ui.hiragana.HiraganaDetailDialog
 
 class HiraganaAdapter (
       private val hiraganaList: List<HiraganaItem>

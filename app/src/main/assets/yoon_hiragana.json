@@ -1,0 +1,270 @@
+[
+  {
+    "hiragana": "きゃ",
+    "romaji": "kya",
+    "vocabList": [
+      { "hiragana": "きゃく", "romaji": "kyaku", "means": "tamu" },
+      { "hiragana": "きゃんぷ", "romaji": "kyanpu", "means": "kemah" }
+    ]
+  },
+
+  {
+    "hiragana": "きゅ",
+    "romaji": "kyu",
+    "vocabList": [
+      { "hiragana": "きゅうきゅうしゃ", "romaji": "kyuukyuusha", "means": "ambulans" },
+      { "hiragana": "きゅうけい", "romaji": "kyuukei", "means": "istirahat" }
+    ]
+  },
+
+  {
+    "hiragana": "きょ",
+    "romaji": "kyo",
+    "vocabList": [
+      { "hiragana": "きょう", "romaji": "kyou", "means": "hari ini" },
+      { "hiragana": "きょうしつ", "romaji": "kyoushitsu", "means": "kelas" }
+    ]
+  },
+
+  {
+    "hiragana": "しゃ",
+    "romaji": "sha",
+    "vocabList": [
+      { "hiragana": "しゃしん", "romaji": "shashin", "means": "foto" },
+      { "hiragana": "しゃちょう", "romaji": "shachou", "means": "direktur" }
+    ]
+  },
+
+  {
+    "hiragana": "しゅ",
+    "romaji": "shu",
+    "vocabList": [
+      { "hiragana": "しゅくだい", "romaji": "shukudai", "means": "PR" },
+      { "hiragana": "しゅっぱつ", "romaji": "shuppatsu", "means": "keberangkatan" }
+    ]
+  },
+
+  {
+    "hiragana": "しょ",
+    "romaji": "sho",
+    "vocabList": [
+      { "hiragana": "しょくどう", "romaji": "shokudou", "means": "kantin" },
+      { "hiragana": "しょせき", "romaji": "shoseki", "means": "buku" }
+    ]
+  },
+
+  {
+    "hiragana": "ちゃ",
+    "romaji": "cha",
+    "vocabList": [
+      { "hiragana": "おちゃ", "romaji": "ocha", "means": "teh" },
+      { "hiragana": "ちゃいろ", "romaji": "chairo", "means": "warna cokelat" }
+    ]
+  },
+
+  {
+    "hiragana": "ちゅ",
+    "romaji": "chu",
+    "vocabList": [
+      { "hiragana": "ちゅうがく", "romaji": "chuugaku", "means": "SMP" },
+      { "hiragana": "ちゅうしゃ", "romaji": "chuusha", "means": "injeksi / parkir" }
+    ]
+  },
+
+  {
+    "hiragana": "ちょ",
+    "romaji": "cho",
+    "vocabList": [
+      { "hiragana": "ちょう", "romaji": "chou", "means": "panjang" },
+      { "hiragana": "ちょきん", "romaji": "chokin", "means": "tabungan" }
+    ]
+  },
+
+  {
+    "hiragana": "にゃ",
+    "romaji": "nya",
+    "vocabList": [
+      { "hiragana": "にゃんこ", "romaji": "nyanko", "means": "kucing (imut)" }
+    ]
+  },
+
+  {
+    "hiragana": "にゅ",
+    "romaji": "nyu",
+    "vocabList": [
+      { "hiragana": "にゅうがく", "romaji": "nyuugaku", "means": "masuk sekolah" }
+    ]
+  },
+
+  {
+    "hiragana": "にょ",
+    "romaji": "nyo",
+    "vocabList": [
+      { "hiragana": "にょうぼう", "romaji": "nyoubou", "means": "istri (lama)" }
+    ]
+  },
+
+  {
+    "hiragana": "ひゃ",
+    "romaji": "hya",
+    "vocabList": [
+      { "hiragana": "ひゃく", "romaji": "hyaku", "means": "seratus" }
+    ]
+  },
+
+  {
+    "hiragana": "ひゅ",
+    "romaji": "hyu",
+    "vocabList": [
+      { "hiragana": "ひゅうひゅう", "romaji": "hyuuhyuu", "means": "suara angin kencang" }
+    ]
+  },
+
+  {
+    "hiragana": "ひょ",
+    "romaji": "hyo",
+    "vocabList": [
+      { "hiragana": "ひょう", "romaji": "hyou", "means": "grafik / diagram" }
+    ]
+  },
+
+  {
+    "hiragana": "みゃ",
+    "romaji": "mya",
+    "vocabList": [
+      { "hiragana": "みゃく", "romaji": "myaku", "means": "nadi" }
+    ]
+  },
+
+  {
+    "hiragana": "みゅ",
+    "romaji": "myu",
+    "vocabList": [
+      { "hiragana": "みゅーじっく", "romaji": "myuujikku", "means": "musik" }
+    ]
+  },
+
+  {
+    "hiragana": "みょ",
+    "romaji": "myo",
+    "vocabList": [
+      { "hiragana": "みょうじ", "romaji": "myouji", "means": "nama keluarga" }
+    ]
+  },
+
+  {
+    "hiragana": "りゃ",
+    "romaji": "rya",
+    "vocabList": [
+      { "hiragana": "りゃく", "romaji": "ryaku", "means": "singkatan" }
+    ]
+  },
+
+  {
+    "hiragana": "りゅ",
+    "romaji": "ryu",
+    "vocabList": [
+      { "hiragana": "りゅうがくせい", "romaji": "ryuugakusei", "means": "mahasiswa asing" }
+    ]
+  },
+
+  {
+    "hiragana": "りょ",
+    "romaji": "ryo",
+    "vocabList": [
+      { "hiragana": "りょこう", "romaji": "ryokou", "means": "perjalanan" },
+      { "hiragana": "りょうり", "romaji": "ryouri", "means": "memasak" }
+    ]
+  },
+
+  {
+    "hiragana": "ぎゃ",
+    "romaji": "gya",
+    "vocabList": [
+      { "hiragana": "ぎゃく", "romaji": "gyaku", "means": "berlawanan" }
+    ]
+  },
+
+  {
+    "hiragana": "ぎゅ",
+    "romaji": "gyu",
+    "vocabList": [
+      { "hiragana": "ぎゅうにゅう", "romaji": "gyuunyuu", "means": "susu sapi" }
+    ]
+  },
+
+  {
+    "hiragana": "ぎょ",
+    "romaji": "gyo",
+    "vocabList": [
+      { "hiragana": "ぎょかい", "romaji": "gyokai", "means": "hasil laut" }
+    ]
+  },
+
+  {
+    "hiragana": "じゃ",
+    "romaji": "ja",
+    "vocabList": [
+      { "hiragana": "じゃがいも", "romaji": "jagaimo", "means": "kentang" }
+    ]
+  },
+
+  {
+    "hiragana": "じゅ",
+    "romaji": "ju",
+    "vocabList": [
+      { "hiragana": "じゅうどう", "romaji": "juudou", "means": "judo" }
+    ]
+  },
+
+  {
+    "hiragana": "じょ",
+    "romaji": "jo",
+    "vocabList": [
+      { "hiragana": "じょせい", "romaji": "josei", "means": "wanita" }
+    ]
+  },
+
+  {
+    "hiragana": "びゃ",
+    "romaji": "bya",
+    "vocabList": [
+      { "hiragana": "びゃくや", "romaji": "byakuya", "means": "matahari tengah malam" }
+    ]
+  },
+
+  {
+    "hiragana": "びゅ",
+    "romaji": "byu",
+    "vocabList": [
+      { "hiragana": "びゅうびゅう", "romaji": "byuubyu", "means": "suara tiupan angin" }
+    ]
+  },
+
+  {
+    "hiragana": "びょ",
+    "romaji": "byo",
+    "vocabList": [
+      { "hiragana": "びょういん", "romaji": "byouin", "means": "rumah sakit" }
+    ]
+  },
+
+  {
+    "hiragana": "ぴゃ",
+    "romaji": "pya",
+    "vocabList": []
+  },
+
+  {
+    "hiragana": "ぴゅ",
+    "romaji": "pyu",
+    "vocabList": []
+  },
+
+  {
+    "hiragana": "ぴょ",
+    "romaji": "pyo",
+    "vocabList": []
+  }
+
+]

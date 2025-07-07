@@ -19,6 +19,15 @@
             android:name=".ui.hiragana.BasicHiragana"
             android:exported="false" />
         <activity
+            android:name=".ui.hiragana.DakutenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.hiragana.YoonActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ui.hiragana.SokuonActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.hiragana.HiraganaMenuActivity"
             android:exported="true" />
         <activity

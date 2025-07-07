@@ -2,9 +2,7 @@
 
 package com.example.hirakata.ui.hiragana
 
-import android.app.AlertDialog
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +10,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hirakata.R
 import com.example.hirakata.adapter.HiraganaAdapter
+import com.example.hirakata.util.InfoDialog
 import com.example.hirakata.util.JsonLoader
 
 class BasicHiragana : AppCompatActivity() {
@@ -34,27 +33,18 @@ class BasicHiragana : AppCompatActivity() {
                }
 
                infoBtn.setOnClickListener {
-                   val dialogView = layoutInflater.inflate(R.layout.dialog_info_hiragana, null)
-                   val dialog = AlertDialog.Builder(this)
-                       .setView(dialogView)
-                       .create()
-
-                   dialogView.findViewById<Button>(R.id.btnCloseInfo).setOnClickListener {
-                       dialog.dismiss()
-                   }
-
-                   dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
-                   dialog.show()
-
+                   InfoDialog.show(
+                       this,
+                       "Apa Itu Hiragana?",
+                       "Hiragana Adalah Salah Satu Dari Tiga Sistem Penulisan Utama Dalam Bahasa Jepang. Umumnya Digunakan Untuk Menulis Kata-kata Asli Jepang, Partikel, Dan Akhiran Kata Kerja \n\nPada Huruf Dibawah Kamu Bisa Menekan Semua Huruf Yang Ada Untuk Melihat Detail Dari Setiap Hurufnya. \n\nTahan Huruf Yang Di Pilih Untuk Menandai dan Membatalkan Tanda Jika Sudah Menandai Nya."
+                   )
                }
-
-
 
                // List Character Hiragana Section
                rvHiragana = findViewById(R.id.rvHiragana)
                rvHiragana.layoutManager = GridLayoutManager(this, 3)
 
-               val hiraganaList = JsonLoader.loadHiragana(this)
+               val hiraganaList = JsonLoader.loadHiragana(this, "basic_hiragana.json")
 
                val adapter = HiraganaAdapter(hiraganaList)
                rvHiragana.adapter = adapter
