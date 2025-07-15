@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.hirakata.R
 import com.example.hirakata.model.HiraganaItem
 import com.example.hirakata.ui.hiragana.HiraganaDetailDialog
+import com.example.hirakata.util.ProgressManager
 
 class HiraganaAdapter (
       private val hiraganaList: List<HiraganaItem>
@@ -30,6 +31,8 @@ class HiraganaAdapter (
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
              val item = hiraganaList[position]
+             val ctx = holder.itemView.context
+             val key = item.hiragana
 
              holder.hiragana.text = item.hiragana
              holder.romaji.text = item.romaji
@@ -37,8 +40,12 @@ class HiraganaAdapter (
                  "${it.hiragana} - ${it.romaji} (${it.means})"
              }
 
+            val isMarked = ProgressManager.isMarked(ctx, key)
+
+
+
             // Marked Item Background Session
-            val backgroundRes = if (item.isMarked)
+            val backgroundRes = if (isMarked)
                 R.drawable.bg_hiragana_item_marked
             else
                 R.drawable.bg_hiragana_item
@@ -46,14 +53,14 @@ class HiraganaAdapter (
 
             // Pop-Up Item Section
              holder.itemView.setOnClickListener {
-                 val fragmentManager = (holder.itemView.context as AppCompatActivity).supportFragmentManager
-                 val dialog = HiraganaDetailDialog(item)
-                 dialog.show(fragmentManager, "HiraganaDetail")
+                 val fragmentManager = (ctx as AppCompatActivity).supportFragmentManager
+                 HiraganaDetailDialog(item).show(fragmentManager, "HiraganaDetail")
              }
 
             // Marked Item - Long Press To Marked / Unmarked
             holder.itemView.setOnLongClickListener {
-                 item.isMarked = !item.isMarked
+                 if (isMarked) ProgressManager.unmark(ctx, key)
+                 else ProgressManager.mark(ctx, key)
                  notifyItemChanged(position)
                  true
             }

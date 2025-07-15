@@ -15,6 +15,7 @@ import com.example.hirakata.util.JsonLoader
 
 class BasicHiragana : AppCompatActivity() {
 
+      // Deklarasi Variabel Untuk Recyle View
       private lateinit var rvHiragana: RecyclerView
 
       override fun onCreate(savedInstanceState: Bundle?) {

@@ -78,9 +78,17 @@ class QuizActivity : AppCompatActivity() {
     private fun loadQuestionsFromJson(quizKey: String) {
 
         val fileResId = when (quizKey) {
-            "basic" -> R.raw.basic_hiragana_quiz
-            "dakuten" -> R.raw.dakuten_handakuten_hiragana_quiz
-            "yoon" -> R.raw.yoon_hiragana_quiz
+
+            // File Quiz Sesi Hiragana
+            "hiragana_basic" -> R.raw.basic_hiragana_quiz
+            "hiragana_dakuten" -> R.raw.dakuten_handakuten_hiragana_quiz
+            "hiragana_yoon" -> R.raw.yoon_hiragana_quiz
+
+            // File Quiz Sesi Katakana
+            "katakana_basic" -> R.raw.basic_katakana_quiz
+            "katakana_dakuten" -> R.raw.dakuten_handakuten_katakana_quiz
+            "katakana_yoon" -> R.raw.yoon_katakana_quiz
+
             else -> {
                 Toast.makeText(this, "Quiz Belum Tersedia", Toast.LENGTH_SHORT).show()
                 finish()
@@ -152,12 +160,20 @@ class QuizActivity : AppCompatActivity() {
             val builder = AlertDialog.Builder(this)
             val message : String
 
-            if (score == totalQuestions) {
+            if (score == totalQuestions && quizKey != null) {
 
                 val nextKey = when (quizKey) {
-                    "basic" -> "dakuten"
-                    "dakuten" -> "yoon"
-                    "yoon" -> "sokuon"
+
+                    // Hiragana Key
+                    "hiragana_basic" -> "hiragana_dakuten"
+                    "hiragana_dakuten" -> "hiragana_yoon"
+                    "hiragana_yoon" -> "hiragana_sokuon"
+
+                    // Katakana Key
+                    "katakana_basic" -> "katakana_dakuten"
+                    "katakana_dakuten" -> "katakana_yoon"
+                    "katakana_yoon" -> "katakana_yoon"
+
                     else -> null
                 }
 

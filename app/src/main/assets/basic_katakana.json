@@ -1,0 +1,784 @@
+[
+  {
+    "hiragana": "ア",
+    "romaji": "a",
+    "vocabList": [
+      {
+        "hiragana": "アイス",
+        "romaji": "aisu",
+        "means": "es krim"
+      },
+      {
+        "hiragana": "アニメ",
+        "romaji": "anime",
+        "means": "anime"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "イ",
+    "romaji": "i",
+    "vocabList": [
+      {
+        "hiragana": "イヌ",
+        "romaji": "inu",
+        "means": "anjing"
+      },
+      {
+        "hiragana": "イカ",
+        "romaji": "ika",
+        "means": "cumi"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ウ",
+    "romaji": "u",
+    "vocabList": [
+      {
+        "hiragana": "ウサギ",
+        "romaji": "usagi",
+        "means": "kelinci"
+      },
+      {
+        "hiragana": "ウミ",
+        "romaji": "umi",
+        "means": "laut"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "エ",
+    "romaji": "e",
+    "vocabList": [
+      {
+        "hiragana": "エキ",
+        "romaji": "eki",
+        "means": "stasiun"
+      },
+      {
+        "hiragana": "エビ",
+        "romaji": "ebi",
+        "means": "udang"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "オ",
+    "romaji": "o",
+    "vocabList": [
+      {
+        "hiragana": "オカシ",
+        "romaji": "okashi",
+        "means": "cemilan"
+      },
+      {
+        "hiragana": "オトコ",
+        "romaji": "otoko",
+        "means": "laki-laki"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "カ",
+    "romaji": "ka",
+    "vocabList": [
+      {
+        "hiragana": "カサ",
+        "romaji": "kasa",
+        "means": "payung"
+      },
+      {
+        "hiragana": "カメ",
+        "romaji": "kame",
+        "means": "kura-kura"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "キ",
+    "romaji": "ki",
+    "vocabList": [
+      {
+        "hiragana": "キツネ",
+        "romaji": "kitsune",
+        "means": "rubah"
+      },
+      {
+        "hiragana": "キモノ",
+        "romaji": "kimono",
+        "means": "kimono"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ク",
+    "romaji": "ku",
+    "vocabList": [
+      {
+        "hiragana": "クチ",
+        "romaji": "kuchi",
+        "means": "mulut"
+      },
+      {
+        "hiragana": "クモ",
+        "romaji": "kumo",
+        "means": "awan"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ケ",
+    "romaji": "ke",
+    "vocabList": [
+      {
+        "hiragana": "ケーキ",
+        "romaji": "keeki",
+        "means": "kue"
+      },
+      {
+        "hiragana": "ケムリ",
+        "romaji": "kemuri",
+        "means": "asap"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "コ",
+    "romaji": "ko",
+    "vocabList": [
+      {
+        "hiragana": "コエ",
+        "romaji": "koe",
+        "means": "suara"
+      },
+      {
+        "hiragana": "コトバ",
+        "romaji": "kotoba",
+        "means": "kata"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "サ",
+    "romaji": "sa",
+    "vocabList": [
+      {
+        "hiragana": "サクラ",
+        "romaji": "sakura",
+        "means": "bunga sakura"
+      },
+      {
+        "hiragana": "サカナ",
+        "romaji": "sakana",
+        "means": "ikan"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "シ",
+    "romaji": "shi",
+    "vocabList": [
+      {
+        "hiragana": "シロ",
+        "romaji": "shiro",
+        "means": "putih"
+      },
+      {
+        "hiragana": "シンブン",
+        "romaji": "shinbun",
+        "means": "koran"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ス",
+    "romaji": "su",
+    "vocabList": [
+      {
+        "hiragana": "スシ",
+        "romaji": "sushi",
+        "means": "sushi"
+      },
+      {
+        "hiragana": "スイカ",
+        "romaji": "suika",
+        "means": "semangka"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "セ",
+    "romaji": "se",
+    "vocabList": [
+      {
+        "hiragana": "センセイ",
+        "romaji": "sensei",
+        "means": "guru"
+      },
+      {
+        "hiragana": "セカイ",
+        "romaji": "sekai",
+        "means": "dunia"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ソ",
+    "romaji": "so",
+    "vocabList": [
+      {
+        "hiragana": "ソラ",
+        "romaji": "sora",
+        "means": "langit"
+      },
+      {
+        "hiragana": "ソウジ",
+        "romaji": "souji",
+        "means": "bersih-bersih"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "タ",
+    "romaji": "ta",
+    "vocabList": [
+      {
+        "hiragana": "タマゴ",
+        "romaji": "tamago",
+        "means": "telur"
+      },
+      {
+        "hiragana": "タケ",
+        "romaji": "take",
+        "means": "bambu"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "チ",
+    "romaji": "chi",
+    "vocabList": [
+      {
+        "hiragana": "チズ",
+        "romaji": "chizu",
+        "means": "peta"
+      },
+      {
+        "hiragana": "チカテツ",
+        "romaji": "chikatetsu",
+        "means": "kereta bawah tanah"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ツ",
+    "romaji": "tsu",
+    "vocabList": [
+      {
+        "hiragana": "ツキ",
+        "romaji": "tsuki",
+        "means": "bulan"
+      },
+      {
+        "hiragana": "ツクエ",
+        "romaji": "tsukue",
+        "means": "meja"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "テ",
+    "romaji": "te",
+    "vocabList": [
+      {
+        "hiragana": "テゴミ",
+        "romaji": "tegami",
+        "means": "surat"
+      },
+      {
+        "hiragana": "テンキ",
+        "romaji": "tenki",
+        "means": "cuaca"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ト",
+    "romaji": "to",
+    "vocabList": [
+      {
+        "hiragana": "トケイ",
+        "romaji": "tokei",
+        "means": "jam"
+      },
+      {
+        "hiragana": "トリ",
+        "romaji": "tori",
+        "means": "burung"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ナ",
+    "romaji": "na",
+    "vocabList": [
+      {
+        "hiragana": "ナツ",
+        "romaji": "natsu",
+        "means": "musim panas"
+      },
+      {
+        "hiragana": "ナニ",
+        "romaji": "nani",
+        "means": "apa"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ニ",
+    "romaji": "ni",
+    "vocabList": [
+      {
+        "hiragana": "ニホン",
+        "romaji": "nihon",
+        "means": "Jepang"
+      },
+      {
+        "hiragana": "ニク",
+        "romaji": "niku",
+        "means": "daging"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ヌ",
+    "romaji": "nu",
+    "vocabList": [
+      {
+        "hiragana": "ヌノ",
+        "romaji": "nuno",
+        "means": "kain"
+      },
+      {
+        "hiragana": "ヌル",
+        "romaji": "nuru",
+        "means": "mengoles"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ネ",
+    "romaji": "ne",
+    "vocabList": [
+      {
+        "hiragana": "ネコ",
+        "romaji": "neko",
+        "means": "kucing"
+      },
+      {
+        "hiragana": "ネツ",
+        "romaji": "netsu",
+        "means": "demam"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ノ",
+    "romaji": "no",
+    "vocabList": [
+      {
+        "hiragana": "ノリ",
+        "romaji": "nori",
+        "means": "rumput laut"
+      },
+      {
+        "hiragana": "ノウ",
+        "romaji": "nou",
+        "means": "otak"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ハ",
+    "romaji": "ha",
+    "vocabList": [
+      {
+        "hiragana": "ハナ",
+        "romaji": "hana",
+        "means": "bunga / hidung"
+      },
+      {
+        "hiragana": "ハシ",
+        "romaji": "hashi",
+        "means": "sumpit"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ヒ",
+    "romaji": "hi",
+    "vocabList": [
+      {
+        "hiragana": "ヒト",
+        "romaji": "hito",
+        "means": "orang"
+      },
+      {
+        "hiragana": "ヒル",
+        "romaji": "hiru",
+        "means": "siang"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "フ",
+    "romaji": "fu",
+    "vocabList": [
+      {
+        "hiragana": "フユ",
+        "romaji": "fuyu",
+        "means": "musim dingin"
+      },
+      {
+        "hiragana": "フネ",
+        "romaji": "fune",
+        "means": "kapal"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ヘ",
+    "romaji": "he",
+    "vocabList": [
+      {
+        "hiragana": "ヘヤ",
+        "romaji": "heya",
+        "means": "ruangan"
+      },
+      {
+        "hiragana": "ヘン",
+        "romaji": "hen",
+        "means": "aneh"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ホ",
+    "romaji": "ho",
+    "vocabList": [
+      {
+        "hiragana": "ホン",
+        "romaji": "hon",
+        "means": "buku"
+      },
+      {
+        "hiragana": "ホシ",
+        "romaji": "hoshi",
+        "means": "bintang"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "マ",
+    "romaji": "ma",
+    "vocabList": [
+      {
+        "hiragana": "マド",
+        "romaji": "mado",
+        "means": "jendela"
+      },
+      {
+        "hiragana": "マツリ",
+        "romaji": "matsuri",
+        "means": "festival"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ミ",
+    "romaji": "mi",
+    "vocabList": [
+      {
+        "hiragana": "ミズ",
+        "romaji": "mizu",
+        "means": "air"
+      },
+      {
+        "hiragana": "ミチ",
+        "romaji": "michi",
+        "means": "jalan"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ム",
+    "romaji": "mu",
+    "vocabList": [
+      {
+        "hiragana": "ムシ",
+        "romaji": "mushi",
+        "means": "serangga"
+      },
+      {
+        "hiragana": "ムネ",
+        "romaji": "mune",
+        "means": "dada"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "メ",
+    "romaji": "me",
+    "vocabList": [
+      {
+        "hiragana": "メガネ",
+        "romaji": "megane",
+        "means": "kacamata"
+      },
+      {
+        "hiragana": "メ",
+        "romaji": "me",
+        "means": "mata"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "モ",
+    "romaji": "mo",
+    "vocabList": [
+      {
+        "hiragana": "モモ",
+        "romaji": "momo",
+        "means": "persik"
+      },
+      {
+        "hiragana": "モノ",
+        "romaji": "mono",
+        "means": "benda"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ヤ",
+    "romaji": "ya",
+    "vocabList": [
+      {
+        "hiragana": "ヤマ",
+        "romaji": "yama",
+        "means": "gunung"
+      },
+      {
+        "hiragana": "ヤサイ",
+        "romaji": "yasai",
+        "means": "sayur"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ユ",
+    "romaji": "yu",
+    "vocabList": [
+      {
+        "hiragana": "ユキ",
+        "romaji": "yuki",
+        "means": "salju"
+      },
+      {
+        "hiragana": "ユメ",
+        "romaji": "yume",
+        "means": "mimpi"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ヨ",
+    "romaji": "yo",
+    "vocabList": [
+      {
+        "hiragana": "ヨウフク",
+        "romaji": "youfuku",
+        "means": "pakaian barat"
+      },
+      {
+        "hiragana": "ヨル",
+        "romaji": "yoru",
+        "means": "malam"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ラ",
+    "romaji": "ra",
+    "vocabList": [
+      {
+        "hiragana": "ライネン",
+        "romaji": "rainen",
+        "means": "tahun depan"
+      },
+      {
+        "hiragana": "ラク",
+        "romaji": "raku",
+        "means": "nyaman"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "リ",
+    "romaji": "ri",
+    "vocabList": [
+      {
+        "hiragana": "リス",
+        "romaji": "risu",
+        "means": "tupai"
+      },
+      {
+        "hiragana": "リョコウ",
+        "romaji": "ryokou",
+        "means": "perjalanan"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ル",
+    "romaji": "ru",
+    "vocabList": [
+      {
+        "hiragana": "ルス",
+        "romaji": "rusu",
+        "means": "tidak di rumah"
+      },
+      {
+        "hiragana": "ルイジ",
+        "romaji": "ruiji",
+        "means": "mirip"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "レ",
+    "romaji": "re",
+    "vocabList": [
+      {
+        "hiragana": "レイゾウコ",
+        "romaji": "reizouko",
+        "means": "kulkas"
+      },
+      {
+        "hiragana": "レキシ",
+        "romaji": "rekishi",
+        "means": "sejarah"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ロ",
+    "romaji": "ro",
+    "vocabList": [
+      {
+        "hiragana": "ロウソク",
+        "romaji": "rousoku",
+        "means": "lilin"
+      },
+      {
+        "hiragana": "ロジ",
+        "romaji": "roji",
+        "means": "gang kecil"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ワ",
+    "romaji": "wa",
+    "vocabList": [
+      {
+        "hiragana": "ワタシ",
+        "romaji": "watashi",
+        "means": "saya"
+      },
+      {
+        "hiragana": "ワカル",
+        "romaji": "wakaru",
+        "means": "mengerti"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ヲ",
+    "romaji": "wo",
+    "vocabList": [
+      {
+        "hiragana": "リンゴヲタベル",
+        "romaji": "ringo wo taberu",
+        "means": "makan apel"
+      },
+      {
+        "hiragana": "ホンヲヨム",
+        "romaji": "hon wo yomu",
+        "means": "membaca buku"
+      }
+    ]
+  },
+
+  {
+    "hiragana": "ン",
+    "romaji": "n",
+    "vocabList": [
+      {
+        "hiragana": "ゴハン",
+        "romaji": "gohan",
+        "means": "nasi"
+      },
+      {
+        "hiragana": "シンカンセン",
+        "romaji": "shinkansen",
+        "means": "kereta cepat"
+      }
+    ]
+  }
+
+]

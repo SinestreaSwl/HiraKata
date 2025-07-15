@@ -9,6 +9,7 @@ import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.example.hirakata.ui.hiragana.HiraganaMenuActivity
+import com.example.hirakata.ui.katakana.KatakanaMenuActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +20,16 @@ class MainActivity : AppCompatActivity() {
         // Button Event For Direct To Hiragana Section
         val hiraganaBtn : Button = findViewById(R.id.hiraganaBtn)
         hiraganaBtn.setOnClickListener {
-            val intent = Intent(this, HiraganaMenuActivity::class.java)
+            val intent = Intent (this, HiraganaMenuActivity::class.java)
+
+            startActivity(intent)
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_in)
+        }
+
+        val katakanaBtn : Button = findViewById(R.id.katakanaBtn)
+        katakanaBtn.setOnClickListener {
+            val intent = Intent (this, KatakanaMenuActivity::class.java)
+
             startActivity(intent)
             overridePendingTransition(R.anim.fade_in, R.anim.fade_in)
         }

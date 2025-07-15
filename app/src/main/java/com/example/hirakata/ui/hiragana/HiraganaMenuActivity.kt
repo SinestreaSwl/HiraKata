@@ -4,6 +4,9 @@ package com.example.hirakata.ui.hiragana
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
+import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -14,50 +17,88 @@ import com.example.hirakata.util.ProgressManager
 
 class HiraganaMenuActivity : AppCompatActivity() {
 
-
+      // Deklarasi Variable Untuk Fitur RecyleView
       private lateinit var rvMenu: RecyclerView
       private lateinit var sections: List<HiraganaSection>
 
+      // Block Code Untuk Menerapkan RecycleView | Back Button | Info Button | Title Sesi
       override fun onCreate(savedInstanceState: Bundle?) {
                super.onCreate(savedInstanceState)
                setContentView(R.layout.activity_hiragana_menu)
 
+               // Deklarasi Variabel Untuk Button Back, Info, Title Sesi, dan Recyle Menu
+               val backBtn : ImageButton = findViewById(R.id.btnBack)
+               val infoBtn : ImageButton = findViewById(R.id.btnInfo)
+               val sessionTitle : TextView = findViewById(R.id.sessionTitle)
                rvMenu = findViewById(R.id.rvHiraganaMenu)
                rvMenu.layoutManager = LinearLayoutManager(this)
 
+               // Title Sesi
+               sessionTitle.text = "Hiragana"
+
+               // Button Back Ke Menu Utama
+               backBtn.setOnClickListener {
+                   finish()
+               }
+
+               // Button Info Cara Membuka Sesi Yang Locked
+               infoBtn.setOnClickListener {
+                   AlertDialog.Builder(this)
+                        .setTitle("Cara Membuka Sesi Yang Locked")
+                        .setMessage("""
+                            - Sesi Basic Secara Otomatis Akan Terbuka
+                            - Sesi Dakuten & Handakuten Akan Terbuka Setelah Kamu Menjawab Quiz Yang Tersedia
+                            - Sesi Yoon Akan Terbuka Setelah Kamu Menjawab Quiz Yang Tersedia
+                            - Sesi Sokuon Akan Terbuka Setelah Kamu Menjawab Quiz Yang Tersedia
+                            
+                            Terdapat 10 Soal Quiz Untuk Tiap Sesi
+                            Skor Yang Harus Didapatkan Untuk Membuka Sesi Terbaru Adalah 10/10
+                            Kamu Dapat Mengulang Terus Menerus Quiznya Apabila Memang Skor Yang Dibutuhkan Belum Mencukupi
+                        """.trimIndent())
+                       .setPositiveButton("Wakarimashita") { dialog, _ -> dialog.dismiss()}
+                       .show()
+               }
+
                loadSections()
+
       }
 
+      // Block Code Untuk Memuat Sesi Sesi Yang Ada
       private fun loadSections() {
               sections = listOf(
+
                   HiraganaSection(
                       "Basic Hiragana",
-                      "basic",
-                      ProgressManager.isUnlocked(this, "basic")
+                      "hiragana_basic",
+                      ProgressManager.isUnlocked(this, "hiragana_basic")
                   ),
+
                   HiraganaSection(
                       "Dakuten & Handakuten Di Hiragana",
-                      "dakuten",
-                      ProgressManager.isUnlocked(this, "dakuten")
+                      "hiragana_dakuten",
+                      ProgressManager.isUnlocked(this, "hiragana_dakuten")
                   ),
+
                   HiraganaSection(
                       "Yōon Di Hiragana",
-                      "yoon",
-                      ProgressManager.isUnlocked(this, "yoon")
+                      "hiragana_yoon",
+                      ProgressManager.isUnlocked(this, "hiragana_yoon")
                   ),
+
                   HiraganaSection(
                       "Sokuon Di Hiragana",
-                      "sokuon",
-                      ProgressManager.isUnlocked(this, "sokuon")
+                      "hiragana_sokuon",
+                      ProgressManager.isUnlocked(this, "hiragana_sokuon")
                   )
+
               )
 
                val adapter = HiraganaSectionAdapter(this, sections) { section ->
                    val intent = when (section.key) {
 
-                       "basic" -> Intent(this, BasicHiragana::class.java)
+                       "hiragana_basic" -> Intent(this, BasicHiragana::class.java)
 
-                       "dakuten" -> {
+                       "hiragana_dakuten" -> {
                            if (!section.isUnlocked) {
                                val quizIntent = Intent(this, QuizActivity::class.java).apply {
                                    putExtra("QUIZ_KEY", "basic")
@@ -68,7 +109,7 @@ class HiraganaMenuActivity : AppCompatActivity() {
                            }
                        }
 
-                       "yoon" -> {
+                       "hiragana_yoon" -> {
                            if (!section.isUnlocked) {
                                val quizIntent = Intent(this, QuizActivity::class.java).apply {
                                    putExtra("QUIZ_KEY", "dakuten")
@@ -79,7 +120,7 @@ class HiraganaMenuActivity : AppCompatActivity() {
                            }
                        }
 
-                       "sokuon" -> {
+                       "hiragana_sokuon" -> {
                            if (!section.isUnlocked) {
                                val quizIntent = Intent(this, QuizActivity::class.java).apply {
                                    putExtra("QUIZ_KEY", "yoon")
@@ -100,6 +141,6 @@ class HiraganaMenuActivity : AppCompatActivity() {
       override fun onResume() {
                super.onResume()
                loadSections()
-    }
+      }
 
 }

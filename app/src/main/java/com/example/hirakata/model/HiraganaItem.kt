@@ -16,5 +16,4 @@ class HiraganaItem (
       val hiragana: String,
       val romaji: String,
       val vocabList: List<Vocabulary>,
-      var isMarked: Boolean = false
 ) : Parcelable
