@@ -30,6 +30,15 @@ class KatakanaSectionAdapter (
         return ViewHolder(view)
     }
 
+    private fun getPreviousQuizKey(currentKey: String) : String? {
+            return when (currentKey) {
+                   "katakana_dakuten" -> "katakana_basic"
+                   "katakana_yoon" -> "katakana_dakuten"
+                   "katakana_sokuon" -> "katakana_yoon"
+                   else -> null
+            }
+    }
+
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val section = sections[position]
         holder.tvSectionTitle.text = section.title
@@ -43,9 +52,12 @@ class KatakanaSectionAdapter (
                     .setTitle("Sesi Terkunci")
                     .setMessage("Untuk Membuka Sesi '${section.title}', Kamu Harus Menyelesaikan Materi Quiz Dari Sesi Sebelumnya Terlebih Dahulu")
                     .setPositiveButton("Ikuzo!") { _, _ ->
-                        val intent = Intent(context, QuizActivity::class.java)
-                        intent.putExtra("QUIZ_KEY", "${section.key}")
-                        context.startActivity(intent)
+                        val quizKey = getPreviousQuizKey(section.key)
+                        if (quizKey != null) {
+                           val intent = Intent(context, QuizActivity::class.java)
+                           intent.putExtra("QUIZ_KEY", quizKey)
+                           context.startActivity(intent)
+                        }
                     }
                     .setNegativeButton("Nanti Dulu", null)
                     .show()

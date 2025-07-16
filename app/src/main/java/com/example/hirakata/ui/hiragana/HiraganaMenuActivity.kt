@@ -105,7 +105,7 @@ class HiraganaMenuActivity : AppCompatActivity() {
                                }
                                quizIntent
                            } else {
-                               Intent(this, DakutenActivity::class.java)
+                               Intent(this, DakutenHiragana::class.java)
                            }
                        }
 
@@ -116,7 +116,7 @@ class HiraganaMenuActivity : AppCompatActivity() {
                                }
                                quizIntent
                            } else {
-                               Intent(this, YoonActivity::class.java)
+                               Intent(this, YoonHiragana::class.java)
                            }
                        }
 
@@ -127,7 +127,7 @@ class HiraganaMenuActivity : AppCompatActivity() {
                                }
                                quizIntent
                            } else {
-                               Intent(this, SokuonActivity::class.java)
+                               Intent(this, SokuonHiragana::class.java)
                            }
                        }
 

@@ -1,0 +1,300 @@
+[
+
+  {
+    "hiragana": "キャ",
+    "romaji": "kya",
+    "vocabList": [
+      {"hiragana": "キャラクター", "romaji": "kyarakutā", "means": "karakter"},
+      {"hiragana": "キャンプ", "romaji": "kyanpu", "means": "kemah"}
+    ]
+  },
+
+  {
+    "hiragana": "キュ",
+    "romaji": "kyu",
+    "vocabList": [
+      {"hiragana": "キュウリ", "romaji": "kyūri", "means": "mentimun"},
+      {"hiragana": "キューブ", "romaji": "kyūbu", "means": "kubus"}
+    ]
+  },
+
+  {
+    "hiragana": "キョ",
+    "romaji": "kyo",
+    "vocabList": [
+      {"hiragana": "キョウシツ", "romaji": "kyōshitsu", "means": "kelas"},
+      {"hiragana": "キョリ", "romaji": "kyori", "means": "jarak"}
+    ]
+  },
+
+  {
+    "hiragana": "シャ",
+    "romaji": "sha",
+    "vocabList": [
+      {"hiragana": "シャツ", "romaji": "shatsu", "means": "kemeja"},
+      {"hiragana": "シャワー", "romaji": "shawā", "means": "shower"}
+    ]
+  },
+
+  {
+    "hiragana": "シュ",
+    "romaji": "shu",
+    "vocabList": [
+      {"hiragana": "シュート", "romaji": "shūto", "means": "tembakan (dalam olahraga)"},
+      {"hiragana": "シュミ", "romaji": "shumi", "means": "hobi"}
+    ]
+  },
+
+  {
+    "hiragana": "ショ",
+    "romaji": "sho",
+    "vocabList": [
+      {"hiragana": "ショッピング", "romaji": "shoppingu", "means": "belanja"},
+      {"hiragana": "ショウガ", "romaji": "shōga", "means": "jahe"}
+    ]
+  },
+
+  {
+    "hiragana": "チャ",
+    "romaji": "cha",
+    "vocabList": [
+      {"hiragana": "チャーハン", "romaji": "chāhan", "means": "nasi goreng"},
+      {"hiragana": "チャット", "romaji": "chatto", "means": "chat"}
+    ]
+  },
+
+  {
+    "hiragana": "チュ",
+    "romaji": "chu",
+    "vocabList": [
+      {"hiragana": "チューリップ", "romaji": "chūrippu", "means": "tulip"},
+      {"hiragana": "チュウゴク", "romaji": "chūgoku", "means": "China"}
+    ]
+  },
+
+  {
+    "hiragana": "チョ",
+    "romaji": "cho",
+    "vocabList": [
+      {"hiragana": "チョコ", "romaji": "choko", "means": "cokelat"},
+      {"hiragana": "チョイス", "romaji": "choisu", "means": "pilihan"}
+    ]
+  },
+
+  {
+    "hiragana": "ニャ",
+    "romaji": "nya",
+    "vocabList": [
+      {"hiragana": "ニャー", "romaji": "nyā", "means": "meong (suara kucing)"},
+      {"hiragana": "ニャンコ", "romaji": "nyanko", "means": "kucing kecil (imut)"}
+    ]
+  },
+
+  {
+    "hiragana": "ニュ",
+    "romaji": "nyu",
+    "vocabList": [
+      {"hiragana": "ニュース", "romaji": "nyūsu", "means": "berita"},
+      {"hiragana": "ニューヨーク", "romaji": "nyūyōku", "means": "New York"}
+    ]
+  },
+
+  {
+    "hiragana": "ニョ",
+    "romaji": "nyo",
+    "vocabList": [
+      {"hiragana": "ニョキ", "romaji": "nyoki", "means": "tumbuh cepat (onomatopoeia)"},
+      {"hiragana": "ニョロニョロ", "romaji": "nyoronyoro", "means": "merayap-rayap"}
+    ]
+  },
+
+  {
+    "hiragana": "ヒャ",
+    "romaji": "hya",
+    "vocabList": [
+      {"hiragana": "ヒャク", "romaji": "hyaku", "means": "seratus"},
+      {"hiragana": "ヒャッキ", "romaji": "hyakki", "means": "parade hantu"}
+    ]
+  },
+
+  {
+    "hiragana": "ヒュ",
+    "romaji": "hyu",
+    "vocabList": [
+      {"hiragana": "ヒューマン", "romaji": "hyūman", "means": "manusia"},
+      {"hiragana": "ヒューヒュー", "romaji": "hyūhyū", "means": "siulan (onomatopoeia)"}
+    ]
+  },
+
+  {
+    "hiragana": "ヒョ",
+    "romaji": "hyo",
+    "vocabList": [
+      {"hiragana": "ヒョウ", "romaji": "hyō", "means": "macan tutul"},
+      {"hiragana": "ヒョッコリ", "romaji": "hyokkori", "means": "tiba-tiba muncul"}
+    ]
+  },
+
+  {
+    "hiragana": "ミャ",
+    "romaji": "mya",
+    "vocabList": [
+      {"hiragana": "ミャオ", "romaji": "myao", "means": "meong"},
+      {"hiragana": "ミャク", "romaji": "myaku", "means": "denyut / nadi"}
+    ]
+  },
+
+  {
+    "hiragana": "ミュ",
+    "romaji": "myu",
+    "vocabList": [
+      {"hiragana": "ミュージック", "romaji": "myūjikku", "means": "musik"},
+      {"hiragana": "ミュート", "romaji": "myūto", "means": "mute / bisu"}
+    ]
+  },
+
+  {
+    "hiragana": "ミョ",
+    "romaji": "myo",
+    "vocabList": [
+      {"hiragana": "ミョウ", "romaji": "myō", "means": "aneh / misterius"},
+      {"hiragana": "ミョウガ", "romaji": "myōga", "means": "jahe Jepang"}
+    ]
+  },
+
+  {
+    "hiragana": "リャ",
+    "romaji": "rya",
+    "vocabList": [
+      {"hiragana": "リャク", "romaji": "ryaku", "means": "singkatan"},
+      {"hiragana": "リャマ", "romaji": "ryama", "means": "llama (hewan)"}
+    ]
+  },
+
+  {
+    "hiragana": "リュ",
+    "romaji": "ryu",
+    "vocabList": [
+      {"hiragana": "リュック", "romaji": "ryukku", "means": "ransel"},
+      {"hiragana": "リュウ", "romaji": "ryū", "means": "naga"}
+    ]
+  },
+
+  {
+    "hiragana": "リョ",
+    "romaji": "ryo",
+    "vocabList": [
+      {"hiragana": "リョコウ", "romaji": "ryokō", "means": "perjalanan"},
+      {"hiragana": "リョウリ", "romaji": "ryōri", "means": "masakan"}
+    ]
+  },
+
+  {
+    "hiragana": "ギャ",
+    "romaji": "gya",
+    "vocabList": [
+      {"hiragana": "ギャグ", "romaji": "gyagu", "means": "lelucon"},
+      {"hiragana": "ギャル", "romaji": "gyaru", "means": "gadis trendi"}
+    ]
+  },
+
+  {
+    "hiragana": "ギュ",
+    "romaji": "gyu",
+    "vocabList": [
+      {"hiragana": "ギュウニュウ", "romaji": "gyūnyū", "means": "susu"},
+      {"hiragana": "ギュウ", "romaji": "gyū", "means": "sapi"}
+    ]
+  },
+
+  {
+    "hiragana": "ギョ",
+    "romaji": "gyo",
+    "vocabList": [
+      {"hiragana": "ギョウザ", "romaji": "gyōza", "means": "pangsit"},
+      {"hiragana": "ギョカイ", "romaji": "gyokai", "means": "dunia perikanan"}
+    ]
+  },
+
+  {
+    "hiragana": "ジャ",
+    "romaji": "ja",
+    "vocabList": [
+      {"hiragana": "ジャム", "romaji": "jamu", "means": "selai"},
+      {"hiragana": "ジャンプ", "romaji": "janpu", "means": "lompat"}
+    ]
+  },
+
+  {
+    "hiragana": "ジュ",
+    "romaji": "ju",
+    "vocabList": [
+      {"hiragana": "ジュース", "romaji": "jūsu", "means": "jus"},
+      {"hiragana": "ジュウドウ", "romaji": "jūdō", "means": "judo"}
+    ]
+  },
+
+  {
+    "hiragana": "ジョ",
+    "romaji": "jo",
+    "vocabList": [
+      {"hiragana": "ジョギング", "romaji": "jogingu", "means": "jogging"},
+      {"hiragana": "ジョウズ", "romaji": "jōzu", "means": "pandai / mahir"}
+    ]
+  },
+
+  {
+    "hiragana": "ビャ",
+    "romaji": "bya",
+    "vocabList": [
+      {"hiragana": "ビャクヤ", "romaji": "byakuya", "means": "malam putih (kutub)"},
+      {"hiragana": "ビャッコ", "romaji": "byakko", "means": "macan putih (mitologi)"}
+    ]
+  },
+
+  {
+    "hiragana": "ビュ",
+    "romaji": "byu",
+    "vocabList": [
+      {"hiragana": "ビューティー", "romaji": "byūtī", "means": "kecantikan"},
+      {"hiragana": "ビュンビュン", "romaji": "byunbyun", "means": "meluncur cepat (onomatopoeia)"}
+    ]
+  },
+
+  {
+    "hiragana": "ビョ",
+    "romaji": "byo",
+    "vocabList": [
+      {"hiragana": "ビョウイン", "romaji": "byōin", "means": "rumah sakit"},
+      {"hiragana": "ビョウキ", "romaji": "byōki", "means": "penyakit"}
+    ]
+  },
+
+  {
+    "hiragana": "ピャ",
+    "romaji": "pya",
+    "vocabList": [
+      {"hiragana": "ピャー", "romaji": "pyā", "means": "suara teriakan / menjerit"},
+      {"hiragana": "ピャッ", "romaji": "pyatto", "means": "secepat kilat (onomatopoeia)"}
+    ]
+  },
+
+  {
+    "hiragana": "ピュ",
+    "romaji": "pyu",
+    "vocabList": [
+      {"hiragana": "ピュー", "romaji": "pyū", "means": "bunyi meluncur (onomatopoeia)"},
+      {"hiragana": "ピュア", "romaji": "pyua", "means": "murni"}
+    ]
+  },
+
+  {
+    "hiragana": "ピョ",
+    "romaji": "pyo",
+    "vocabList": [
+      {"hiragana": "ピョンピョン", "romaji": "pyonpyon", "means": "melompat-lompat"},
+      {"hiragana": "ピョコ", "romaji": "pyoko", "means": "muncul tiba-tiba"}
+    ]
+  }
+
+]

@@ -1,0 +1,228 @@
+[
+
+  {
+    "hiragana": "ガ",
+    "romaji": "ga",
+    "vocabList": [
+      {"hiragana": "ガラス", "romaji": "garasu", "means": "kaca"},
+      {"hiragana": "ガイド", "romaji": "gaido", "means": "pemandu"}
+    ]
+  },
+
+  {
+    "hiragana": "ギ",
+    "romaji": "gi",
+    "vocabList": [
+      {"hiragana": "ギター", "romaji": "gitā", "means": "gitar"},
+      {"hiragana": "ギフト", "romaji": "gifuto", "means": "hadiah"}
+    ]
+  },
+
+  {
+    "hiragana": "グ",
+    "romaji": "gu",
+    "vocabList": [
+      {"hiragana": "グラス", "romaji": "gurasu", "means": "gelas"},
+      {"hiragana": "グループ", "romaji": "gurūpu", "means": "kelompok"}
+    ]
+  },
+
+  {
+    "hiragana": "ゲ",
+    "romaji": "ge",
+    "vocabList": [
+      {"hiragana": "ゲーム", "romaji": "gēmu", "means": "permainan"},
+      {"hiragana": "ゲスト", "romaji": "gesuto", "means": "tamu"}
+    ]
+  },
+
+  {
+    "hiragana": "ゴ",
+    "romaji": "go",
+    "vocabList": [
+      {"hiragana": "ゴミ", "romaji": "gomi", "means": "sampah"},
+      {"hiragana": "ゴール", "romaji": "gōru", "means": "tujuan / gol"}
+    ]
+  },
+
+  {
+    "hiragana": "ザ",
+    "romaji": "za",
+    "vocabList": [
+      {"hiragana": "ザル", "romaji": "zaru", "means": "saringan"},
+      {"hiragana": "ザ・ワールド", "romaji": "za wārudo", "means": "the world"}
+    ]
+  },
+
+  {
+    "hiragana": "ジ",
+    "romaji": "ji",
+    "vocabList": [
+      {"hiragana": "ジーンズ", "romaji": "jīnzu", "means": "celana jeans"},
+      {"hiragana": "ジム", "romaji": "jimu", "means": "gym"}
+    ]
+  },
+
+  {
+    "hiragana": "ズ",
+    "romaji": "zu",
+    "vocabList": [
+      {"hiragana": "ズボン", "romaji": "zubon", "means": "celana"},
+      {"hiragana": "ズーム", "romaji": "zūmu", "means": "zoom"}
+    ]
+  },
+
+  {
+    "hiragana": "ゼ",
+    "romaji": "ze",
+    "vocabList": [
+      {"hiragana": "ゼロ", "romaji": "zero", "means": "nol"},
+      {"hiragana": "ゼリー", "romaji": "zerī", "means": "agar-agar"}
+    ]
+  },
+
+  {
+    "hiragana": "ゾ",
+    "romaji": "zo",
+    "vocabList": [
+      {"hiragana": "ゾウ", "romaji": "zō", "means": "gajah"},
+      {"hiragana": "ゾンビ", "romaji": "zonbi", "means": "zombie"}
+    ]
+  },
+
+  {
+    "hiragana": "ダ",
+    "romaji": "da",
+    "vocabList": [
+      {"hiragana": "ダンス", "romaji": "dansu", "means": "tari"},
+      {"hiragana": "ダメ", "romaji": "dame", "means": "tidak boleh"}
+    ]
+  },
+
+  {
+    "hiragana": "ヂ",
+    "romaji": "ji",
+    "vocabList": [
+      {"hiragana": "ヂカラ", "romaji": "jikara", "means": "kekuatan diri"},
+      {"hiragana": "ヂンギスカン", "romaji": "jingisukan", "means": "Genghis Khan (masakan Jepang)"}
+    ]
+  },
+
+  {
+    "hiragana": "ヅ",
+    "romaji": "zu",
+    "vocabList": [
+      {"hiragana": "ヅカ", "romaji": "zuka", "means": "Takarazuka (grup teater)"},
+      {"hiragana": "ヅラ", "romaji": "zura", "means": "wig / rambut palsu"}
+    ]
+  },
+
+  {
+    "hiragana": "デ",
+    "romaji": "de",
+    "vocabList": [
+      {"hiragana": "デート", "romaji": "dēto", "means": "kencan"},
+      {"hiragana": "デジタル", "romaji": "dejitaru", "means": "digital"}
+    ]
+  },
+
+  {
+    "hiragana": "ド",
+    "romaji": "do",
+    "vocabList": [
+      {"hiragana": "ドア", "romaji": "doa", "means": "pintu"},
+      {"hiragana": "ドラマ", "romaji": "dorama", "means": "drama"}
+    ]
+  },
+
+  {
+    "hiragana": "バ",
+    "romaji": "ba",
+    "vocabList": [
+      {"hiragana": "バナナ", "romaji": "banana", "means": "pisang"},
+      {"hiragana": "バス", "romaji": "basu", "means": "bus"}
+    ]
+  },
+
+  {
+    "hiragana": "ビ",
+    "romaji": "bi",
+    "vocabList": [
+      {"hiragana": "ビール", "romaji": "bīru", "means": "bir"},
+      {"hiragana": "ビル", "romaji": "biru", "means": "gedung"}
+    ]
+  },
+
+  {
+    "hiragana": "ブ",
+    "romaji": "bu",
+    "vocabList": [
+      {"hiragana": "ブーツ", "romaji": "būtsu", "means": "sepatu boot"},
+      {"hiragana": "ブタ", "romaji": "buta", "means": "babi"}
+    ]
+  },
+
+  {
+    "hiragana": "ベ",
+    "romaji": "be",
+    "vocabList": [
+      {"hiragana": "ベッド", "romaji": "beddo", "means": "tempat tidur"},
+      {"hiragana": "ベスト", "romaji": "besuto", "means": "terbaik"}
+    ]
+  },
+
+  {
+    "hiragana": "ボ",
+    "romaji": "bo",
+    "vocabList": [
+      {"hiragana": "ボール", "romaji": "bōru", "means": "bola"},
+      {"hiragana": "ボタン", "romaji": "botan", "means": "tombol"}
+    ]
+  },
+
+  {
+    "hiragana": "パ",
+    "romaji": "pa",
+    "vocabList": [
+      {"hiragana": "パン", "romaji": "pan", "means": "roti"},
+      {"hiragana": "パンダ", "romaji": "panda", "means": "panda"}
+    ]
+  },
+
+  {
+    "hiragana": "ピ",
+    "romaji": "pi",
+    "vocabList": [
+      {"hiragana": "ピアノ", "romaji": "piano", "means": "piano"},
+      {"hiragana": "ピザ", "romaji": "piza", "means": "pizza"}
+    ]
+  },
+
+  {
+    "hiragana": "プ",
+    "romaji": "pu",
+    "vocabList": [
+      {"hiragana": "プレゼント", "romaji": "purezento", "means": "hadiah"},
+      {"hiragana": "プール", "romaji": "pūru", "means": "kolam renang"}
+    ]
+  },
+
+  {
+    "hiragana": "ペ",
+    "romaji": "pe",
+    "vocabList": [
+      {"hiragana": "ペン", "romaji": "pen", "means": "pena"},
+      {"hiragana": "ペット", "romaji": "petto", "means": "hewan peliharaan"}
+    ]
+  },
+
+  {
+    "hiragana": "ポ",
+    "romaji": "po",
+    "vocabList": [
+      {"hiragana": "ポスト", "romaji": "posuto", "means": "kotak pos"},
+      {"hiragana": "ポテト", "romaji": "poteto", "means": "kentang"}
+    ]
+  }
+
+]

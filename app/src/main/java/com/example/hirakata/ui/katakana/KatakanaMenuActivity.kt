@@ -71,26 +71,29 @@ class KatakanaMenuActivity : AppCompatActivity() {
             ),
             HiraganaSection(
                 "Dakuten & Handakuten Di Katakana",
-                "dakuten_katakana",
-                ProgressManager.isUnlocked(this, "dakuten_katakana")
+                "katakana_dakuten",
+                ProgressManager.isUnlocked(this, "katakana_dakuten")
             ),
 
             HiraganaSection(
                 "Yōon Di Katakana",
-                "yoon_katakana",
-                ProgressManager.isUnlocked(this, "yoon_katakana")
+                "katakana_yoon",
+                ProgressManager.isUnlocked(this, "katakana_yoon")
             ),
 
             HiraganaSection(
                 "Sokuon Di Katakana",
-                "sokuon_katakana",
-                ProgressManager.isUnlocked(this, "sokuon_katakana")
+                "katakana_sokuon",
+                ProgressManager.isUnlocked(this, "katakana_sokuon")
             )
         )
 
         val adapter = KatakanaSectionAdapter(this, sections) { section ->
             val intent = when (section.key) {
                 "katakana_basic" -> Intent(this, BasicKatakana::class.java)
+                "katakana_dakuten" -> Intent(this, DakutenKatakana::class.java)
+                "katakana_yoon" -> Intent(this, YoonKatakana::class.java)
+                "katakana_sokuon" -> Intent(this, SokuonKatakana::class.java)
                 else -> null
             }
             intent?.let { startActivity(it) }

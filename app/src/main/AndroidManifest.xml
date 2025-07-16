@@ -19,13 +19,13 @@
             android:name=".ui.hiragana.BasicHiragana"
             android:exported="false" />
         <activity
-            android:name=".ui.hiragana.DakutenActivity"
+            android:name=".ui.hiragana.DakutenHiragana"
             android:exported="false" />
         <activity
-            android:name=".ui.hiragana.YoonActivity"
+            android:name=".ui.hiragana.YoonHiragana"
             android:exported="false"/>
         <activity
-            android:name=".ui.hiragana.SokuonActivity"
+            android:name=".ui.hiragana.SokuonHiragana"
             android:exported="false" />
         <activity
             android:name=".ui.hiragana.HiraganaMenuActivity"
@@ -35,6 +35,15 @@
             android:exported="true" />
         <activity
             android:name=".ui.katakana.BasicKatakana"
+            android:exported="false" />
+        <activity
+            android:name=".ui.katakana.DakutenKatakana"
+            android:exported="false" />
+        <activity
+            android:name=".ui.katakana.YoonKatakana"
+            android:exported="false" />
+        <activity
+            android:name=".ui.katakana.SokuonKatakana"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

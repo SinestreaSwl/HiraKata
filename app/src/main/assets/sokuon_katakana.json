@@ -1,0 +1,163 @@
+[
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "カット", "romaji": "katto", "means": "potongan" },
+      { "hiragana": "ヘアカット", "romaji": "heakatto", "means": "potong rambut" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "キット", "romaji": "kitto", "means": "perlengkapan / kit" },
+      { "hiragana": "メディカルキット", "romaji": "medikarukitto", "means": "kotak P3K" }
+    ]
+  },
+  {
+    "hiragana": "ッカ",
+    "romaji": "kkā",
+    "vocabList": [
+      { "hiragana": "サッカー", "romaji": "sakkā", "means": "sepak bola" },
+      { "hiragana": "サッカーチーム", "romaji": "sakkā chīmu", "means": "tim sepak bola" }
+    ]
+  },
+  {
+    "hiragana": "ッド",
+    "romaji": "ddo",
+    "vocabList": [
+      { "hiragana": "ベッド", "romaji": "beddo", "means": "tempat tidur" },
+      { "hiragana": "ベッドルーム", "romaji": "beddorūmu", "means": "kamar tidur" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "チケット", "romaji": "chiketto", "means": "tiket" },
+      { "hiragana": "ライブチケット", "romaji": "raibu chiketto", "means": "tiket konser" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "バット", "romaji": "batto", "means": "tongkat (baseball)" },
+      { "hiragana": "バットマン", "romaji": "battoman", "means": "Batman" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "ドット", "romaji": "dotto", "means": "titik / dot" },
+      { "hiragana": "ドット絵", "romaji": "dottoe", "means": "pixel art" }
+    ]
+  },
+  {
+    "hiragana": "ック",
+    "romaji": "kku",
+    "vocabList": [
+      { "hiragana": "ロック", "romaji": "rokku", "means": "rock (musik)" },
+      { "hiragana": "ロックバンド", "romaji": "rokkubando", "means": "band rock" }
+    ]
+  },
+  {
+    "hiragana": "ック",
+    "romaji": "kku",
+    "vocabList": [
+      { "hiragana": "ショック", "romaji": "shokku", "means": "terkejut / shock" },
+      { "hiragana": "カルチャーショック", "romaji": "karuchā shokku", "means": "culture shock" }
+    ]
+  },
+  {
+    "hiragana": "ップ",
+    "romaji": "ppu",
+    "vocabList": [
+      { "hiragana": "アップ", "romaji": "appu", "means": "naik / upload / close-up" },
+      { "hiragana": "アップロード", "romaji": "appurōdo", "means": "upload" }
+    ]
+  },
+  {
+    "hiragana": "ッピー",
+    "romaji": "ppī",
+    "vocabList": [
+      { "hiragana": "ハッピー", "romaji": "happī", "means": "bahagia / happy" },
+      { "hiragana": "ハッピーバースデー", "romaji": "happī bāsudē", "means": "selamat ulang tahun" }
+    ]
+  },
+  {
+    "hiragana": "ッズ",
+    "romaji": "zzu",
+    "vocabList": [
+      { "hiragana": "グッズ", "romaji": "guzzu", "means": "barang / merchandise" },
+      { "hiragana": "キャラグッズ", "romaji": "kyara guzzu", "means": "merchandise karakter" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "ノット", "romaji": "notto", "means": "tidak / not" },
+      { "hiragana": "ノットイコール", "romaji": "notto ikōru", "means": "tidak sama dengan (≠)" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "ボット", "romaji": "botto", "means": "bot (program)" },
+      { "hiragana": "チャットボット", "romaji": "chatto botto", "means": "chatbot" }
+    ]
+  },
+  {
+    "hiragana": "ッチ",
+    "romaji": "cchi",
+    "vocabList": [
+      { "hiragana": "マッチ", "romaji": "macchi", "means": "cocok / match" },
+      { "hiragana": "マッチング", "romaji": "macchingu", "means": "pencocokan / matching" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "ネット", "romaji": "netto", "means": "internet / jaring" },
+      { "hiragana": "ネットワーク", "romaji": "nettowāku", "means": "jaringan" }
+    ]
+  },
+  {
+    "hiragana": "ッス",
+    "romaji": "ssu",
+    "vocabList": [
+      { "hiragana": "キッス", "romaji": "kissu", "means": "cium / kiss" },
+      { "hiragana": "ナイトキッス", "romaji": "naito kissu", "means": "cium selamat malam" }
+    ]
+  },
+  {
+    "hiragana": "ット",
+    "romaji": "tto",
+    "vocabList": [
+      { "hiragana": "パット", "romaji": "patto", "means": "bantalan / pad" },
+      { "hiragana": "メイクパット", "romaji": "meiku patto", "means": "makeup pad" }
+    ]
+  },
+  {
+    "hiragana": "ック",
+    "romaji": "kku",
+    "vocabList": [
+      { "hiragana": "ブック", "romaji": "bukku", "means": "buku" },
+      { "hiragana": "ノートブック", "romaji": "nōto bukku", "means": "notebook / buku catatan" }
+    ]
+  },
+  {
+    "hiragana": "ック",
+    "romaji": "kku",
+    "vocabList": [
+      { "hiragana": "ドラック", "romaji": "dorakku", "means": "drug / narkoba" },
+      { "hiragana": "ドラックストア", "romaji": "dorakku sutoa", "means": "apotek / drugstore" }
+    ]
+  }
+
+]

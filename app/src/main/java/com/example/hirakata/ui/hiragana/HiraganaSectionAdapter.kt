@@ -30,6 +30,15 @@ class HiraganaSectionAdapter (
              return ViewHolder(view)
     }
 
+    private fun getPreviousQuizKey(currentKey: String) : String? {
+            return when (currentKey) {
+                   "hiragana_dakuten" -> "hiragana_basic"
+                   "hiragana_yoon" -> "hiragana_dakuten"
+                   "hiragana_sokuon" -> "hiragana_yoon"
+                   else -> null
+            }
+    }
+
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
              val section = sections[position]
              holder.tvSectionTitle.text = section.title
@@ -43,9 +52,12 @@ class HiraganaSectionAdapter (
                              .setTitle("Sesi Terkunci")
                              .setMessage("Untuk Membuka Sesi '${section.title}', Kamu Harus Menyelesaikan Materi Quiz Dari Sesi Sebelumnya Terlebih Dahulu")
                              .setPositiveButton("Ikuzo!") { _, _ ->
-                                 val intent = Intent(context, QuizActivity::class.java)
-                                 intent.putExtra("QUIZ_KEY", section.key)
-                                 context.startActivity(intent)
+                                 val quizKey = getPreviousQuizKey(section.key)
+                                 if (quizKey != null) {
+                                    val intent = Intent(context, QuizActivity::class.java)
+                                    intent.putExtra("QUIZ_KEY", quizKey)
+                                    context.startActivity(intent)
+                                 }
                              }
                             .setNegativeButton("Nanti Dulu", null)
                             .show()

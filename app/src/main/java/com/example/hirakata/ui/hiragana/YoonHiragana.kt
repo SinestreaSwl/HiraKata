@@ -11,9 +11,9 @@ import com.example.hirakata.adapter.HiraganaAdapter
 import com.example.hirakata.util.InfoDialog
 import com.example.hirakata.util.JsonLoader
 
-class DakutenActivity : AppCompatActivity() {
+class YoonHiragana : AppCompatActivity() {
 
-      private lateinit var rvHiragana : RecyclerView
+      private lateinit var rvHiragana: RecyclerView
 
       override fun onCreate(savedInstanceState: Bundle?) {
           super.onCreate(savedInstanceState)
@@ -24,7 +24,7 @@ class DakutenActivity : AppCompatActivity() {
           val sessionTitle : TextView = findViewById(R.id.sessionTitle)
 
           // Header Title, Back Button, Info Button Section
-          sessionTitle.text = "Dakuten & Handakuten Di Hiragana"
+          sessionTitle.text = "Yoon Di Hiragana"
 
           backBtn.setOnClickListener {
               finish()
@@ -33,8 +33,8 @@ class DakutenActivity : AppCompatActivity() {
           infoBtn.setOnClickListener {
               InfoDialog.show(
                   this,
-                  "Apa Itu Dakuten Dan Handakuten",
-                  "Dakuten (゛) dan Handakuten (゜) adalah tanda di atas huruf hiragana yang mengubah suara huruf tersebut.\n\nSeperti か (ka) menjadi が (ga) \nDari は (ha) menjadi ば (ba) atau ぱ (pa)\n\nItulah kenapa fungsinya penting dalam pelafalan kata-kata bahasa Jepang\nKamu bisa menekan setiap huruf untuk melihat detailnya!\n\nTahan Huruf Yang Di Pilih Untuk Menandai dan Membatalkan Tanda Jika Sudah Menandai Nya."
+                  "Apa Itu Yoon?",
+                  "Yōon adalah kombinasi dari konsonan + vokal kecil seperti 「ゃ」「ゅ」「ょ」untuk membentuk bunyi majemuk, contohnya : き + ゃ = きゃ (kya)\n\nDan Bunyi ini tidak bisa dipecah-pecah jadi dua suku kata, karena terbaca sebagai satu unit.\n\nPada Huruf Dibawah Kamu Bisa Menekan Semua Huruf Yang Ada Untuk Melihat Detail Dari Setiap Hurufnya. \n\nTahan Huruf Yang Di Pilih Untuk Menandai dan Membatalkan Tanda Jika Sudah Menandai Nya."
               )
           }
 
@@ -42,9 +42,10 @@ class DakutenActivity : AppCompatActivity() {
           rvHiragana = findViewById(R.id.rvHiragana)
           rvHiragana.layoutManager = GridLayoutManager(this, 3)
 
-          val hiraganaList = JsonLoader.loadHiragana(this, "dakuten_handakuten_hiragana.json")
+          val hiraganaList = JsonLoader.loadHiragana(this, "yoon_hiragana.json")
 
           val adapter = HiraganaAdapter(hiraganaList)
           rvHiragana.adapter = adapter
+
       }
 }

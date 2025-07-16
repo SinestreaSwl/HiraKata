@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Apa bacaan dari huruf キャ?",
+    "options": [
+      "gya",
+      "kya",
+      "kyu",
+      "shu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'kya'?",
+    "options": [
+      "チュ",
+      "ショ",
+      "キャ",
+      "ビャ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf キュ?",
+    "options": [
+      "sho",
+      "kyu",
+      "cho",
+      "kya"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'kyu'?",
+    "options": [
+      "ピャ",
+      "チャ",
+      "ビョ",
+      "キュ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf キョ?",
+    "options": [
+      "nya",
+      "ju",
+      "cha",
+      "kyo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'kyo'?",
+    "options": [
+      "ジャ",
+      "ショ",
+      "キョ",
+      "チャ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf シャ?",
+    "options": [
+      "myu",
+      "ryo",
+      "nyo",
+      "sha"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'sha'?",
+    "options": [
+      "チュ",
+      "ピュ",
+      "リョ",
+      "シャ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf シュ?",
+    "options": [
+      "myu",
+      "hyo",
+      "shu",
+      "pya"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'shu'?",
+    "options": [
+      "ミャ",
+      "シュ",
+      "ニョ",
+      "リャ"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Apa bacaan dari huruf ショ?",
+    "options": [
+      "byo",
+      "hya",
+      "byu",
+      "sho"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'sho'?",
+    "options": [
+      "ピャ",
+      "ヒュ",
+      "リャ",
+      "ショ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf チャ?",
+    "options": [
+      "cha",
+      "kyo",
+      "kyu",
+      "hya"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'cha'?",
+    "options": [
+      "チャ",
+      "ビュ",
+      "ピュ",
+      "キュ"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Apa bacaan dari huruf チュ?",
+    "options": [
+      "chu",
+      "hyu",
+      "ryu",
+      "shu"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'chu'?",
+    "options": [
+      "チュ",
+      "ビョ",
+      "チャ",
+      "ギョ"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Apa bacaan dari huruf チョ?",
+    "options": [
+      "cho",
+      "gyu",
+      "shu",
+      "cha"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'cho'?",
+    "options": [
+      "チョ",
+      "ニョ",
+      "リョ",
+      "ビョ"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Apa bacaan dari huruf ニャ?",
+    "options": [
+      "jo",
+      "nya",
+      "gya",
+      "cho"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'nya'?",
+    "options": [
+      "ピャ",
+      "ニョ",
+      "ニャ",
+      "シュ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf ニュ?",
+    "options": [
+      "ja",
+      "nyu",
+      "gyu",
+      "pya"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'nyu'?",
+    "options": [
+      "リュ",
+      "ニュ",
+      "ギュ",
+      "ミャ"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Apa bacaan dari huruf ニョ?",
+    "options": [
+      "nyo",
+      "sho",
+      "cho",
+      "myu"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'nyo'?",
+    "options": [
+      "キュ",
+      "リュ",
+      "ニョ",
+      "シャ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf ヒャ?",
+    "options": [
+      "myu",
+      "gyo",
+      "hya",
+      "hyu"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'hya'?",
+    "options": [
+      "キャ",
+      "リュ",
+      "ヒャ",
+      "シャ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf ヒュ?",
+    "options": [
+      "hyu",
+      "ju",
+      "mya",
+      "sha"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'hyu'?",
+    "options": [
+      "ヒュ",
+      "ショ",
+      "ニョ",
+      "ジャ"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Apa bacaan dari huruf ヒョ?",
+    "options": [
+      "hyo",
+      "myo",
+      "jo",
+      "kyo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'hyo'?",
+    "options": [
+      "ビョ",
+      "ヒョ",
+      "リョ",
+      "ジョ"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Apa bacaan dari huruf ミャ?",
+    "options": [
+      "mya",
+      "cho",
+      "kya",
+      "hya"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'mya'?",
+    "options": [
+      "ミョ",
+      "ミャ",
+      "ショ",
+      "ピャ"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Apa bacaan dari huruf ミュ?",
+    "options": [
+      "myu",
+      "byo",
+      "chu",
+      "cho"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'myu'?",
+    "options": [
+      "ビョ",
+      "ビュ",
+      "ミャ",
+      "ミュ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf ミョ?",
+    "options": [
+      "myo",
+      "cha",
+      "ja",
+      "nya"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'myo'?",
+    "options": [
+      "リョ",
+      "ミョ",
+      "ニャ",
+      "ギャ"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Apa bacaan dari huruf リャ?",
+    "options": [
+      "rya",
+      "jo",
+      "sho",
+      "kyu"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'rya'?",
+    "options": [
+      "ヒュ",
+      "ミャ",
+      "ニャ",
+      "リャ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf リュ?",
+    "options": [
+      "sha",
+      "ryu",
+      "bya",
+      "rya"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ryu'?",
+    "options": [
+      "ヒョ",
+      "ギュ",
+      "ピョ",
+      "リュ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf リョ?",
+    "options": [
+      "hyo",
+      "ja",
+      "ryo",
+      "shu"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ryo'?",
+    "options": [
+      "リャ",
+      "ピョ",
+      "リョ",
+      "ヒョ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf ギャ?",
+    "options": [
+      "nyu",
+      "shu",
+      "gya",
+      "byu"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'gya'?",
+    "options": [
+      "ギャ",
+      "リョ",
+      "ヒャ",
+      "チュ"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Apa bacaan dari huruf ギュ?",
+    "options": [
+      "gyu",
+      "myu",
+      "cho",
+      "bya"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'gyu'?",
+    "options": [
+      "ギョ",
+      "ヒュ",
+      "シュ",
+      "ギュ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf ギョ?",
+    "options": [
+      "mya",
+      "sha",
+      "rya",
+      "gyo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'gyo'?",
+    "options": [
+      "リャ",
+      "キャ",
+      "キュ",
+      "ギョ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf ジャ?",
+    "options": [
+      "bya",
+      "ja",
+      "pyo",
+      "ju"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ja'?",
+    "options": [
+      "ピュ",
+      "キャ",
+      "チョ",
+      "ジャ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf ジュ?",
+    "options": [
+      "kyu",
+      "ju",
+      "hyu",
+      "nya"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'ju'?",
+    "options": [
+      "ニャ",
+      "ピュ",
+      "ジュ",
+      "ビュ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf ジョ?",
+    "options": [
+      "jo",
+      "ja",
+      "hyo",
+      "pyo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'jo'?",
+    "options": [
+      "ジョ",
+      "ヒョ",
+      "ミョ",
+      "ジュ"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Apa bacaan dari huruf ビャ?",
+    "options": [
+      "pyu",
+      "nyu",
+      "bya",
+      "gya"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'bya'?",
+    "options": [
+      "シュ",
+      "ビュ",
+      "シャ",
+      "ビャ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf ビュ?",
+    "options": [
+      "gyu",
+      "byu",
+      "mya",
+      "gyo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'byu'?",
+    "options": [
+      "ギャ",
+      "ニョ",
+      "ビュ",
+      "ショ"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Apa bacaan dari huruf ビョ?",
+    "options": [
+      "hya",
+      "byo",
+      "sha",
+      "ryu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'byo'?",
+    "options": [
+      "キャ",
+      "ギョ",
+      "ニャ",
+      "ビョ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf ピャ?",
+    "options": [
+      "pyo",
+      "pya",
+      "gya",
+      "chu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'pya'?",
+    "options": [
+      "ヒャ",
+      "ピュ",
+      "ミャ",
+      "ピャ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Apa bacaan dari huruf ピュ?",
+    "options": [
+      "ju",
+      "pyu",
+      "pya",
+      "byu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'pyu'?",
+    "options": [
+      "ピュ",
+      "ショ",
+      "リュ",
+      "ギョ"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Apa bacaan dari huruf ピョ?",
+    "options": [
+      "ryo",
+      "cho",
+      "pyu",
+      "pyo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Huruf mana yang mewakili bunyi 'pyo'?",
+    "options": [
+      "ピョ",
+      "ジャ",
+      "ニャ",
+      "シャ"
+    ],
+    "correctAnswer": 0
+  }
+]

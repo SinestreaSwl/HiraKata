@@ -11,9 +11,9 @@ import com.example.hirakata.adapter.HiraganaAdapter
 import com.example.hirakata.util.InfoDialog
 import com.example.hirakata.util.JsonLoader
 
-class SokuonActivity : AppCompatActivity() {
+class DakutenHiragana : AppCompatActivity() {
 
-      private lateinit var rvHiragana: RecyclerView
+      private lateinit var rvHiragana : RecyclerView
 
       override fun onCreate(savedInstanceState: Bundle?) {
           super.onCreate(savedInstanceState)
@@ -24,28 +24,27 @@ class SokuonActivity : AppCompatActivity() {
           val sessionTitle : TextView = findViewById(R.id.sessionTitle)
 
           // Header Title, Back Button, Info Button Section
-          sessionTitle.text = "Sokuon Di Hiragana"
+          sessionTitle.text = "Dakuten & Handakuten Di Hiragana"
 
           backBtn.setOnClickListener {
               finish()
           }
 
           infoBtn.setOnClickListener {
-             InfoDialog.show(
-                 this,
-                 "Apa Itu Sokuon?",
-                 "Sokuon adalah karakter kecil 「っ」yang digunakan untuk menunjukkan bunyi konsonan ganda atau hentakan pendek dalam pengucapan. Contohnya, pada kata「がっこう」(gakkou) yang berarti \"sekolah\", bunyi 'k' diulang dan diberi penekanan pendek.\n\nSokuon biasanya muncul sebelum konsonan seperti k, s, t, dan p. Penggunaannya penting karena mengubah arti kata, misalnya:\n さか (saka) = lereng | さっか (sakka) = penulis\n\nPada Huruf Dibawah Kamu Bisa Menekan Semua Huruf Yang Ada Untuk Melihat Detail Dari Setiap Hurufnya.\n\nPerhatikan bahwa 「っ」tidak memiliki suara sendiri, tapi hanya memperpendek bunyi berikutnya. \n\nTahan Huruf Yang Di Pilih Untuk Menandai dan Membatalkan Tanda Jika Sudah Menandai Nya."
-             )
-        }
+              InfoDialog.show(
+                  this,
+                  "Apa Itu Dakuten Dan Handakuten",
+                  "Dakuten (゛) dan Handakuten (゜) adalah tanda di atas huruf hiragana yang mengubah suara huruf tersebut.\n\nSeperti か (ka) menjadi が (ga) \nDari は (ha) menjadi ば (ba) atau ぱ (pa)\n\nItulah kenapa fungsinya penting dalam pelafalan kata-kata bahasa Jepang\nKamu bisa menekan setiap huruf untuk melihat detailnya!\n\nTahan Huruf Yang Di Pilih Untuk Menandai dan Membatalkan Tanda Jika Sudah Menandai Nya."
+              )
+          }
 
           // List Character Hiragana Section
           rvHiragana = findViewById(R.id.rvHiragana)
           rvHiragana.layoutManager = GridLayoutManager(this, 3)
 
-          val hiraganaList = JsonLoader.loadHiragana(this, "sokuon_hiragana.json")
+          val hiraganaList = JsonLoader.loadHiragana(this, "dakuten_handakuten_hiragana.json")
 
           val adapter = HiraganaAdapter(hiraganaList)
           rvHiragana.adapter = adapter
-
       }
 }

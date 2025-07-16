@@ -172,7 +172,7 @@ class QuizActivity : AppCompatActivity() {
                     // Katakana Key
                     "katakana_basic" -> "katakana_dakuten"
                     "katakana_dakuten" -> "katakana_yoon"
-                    "katakana_yoon" -> "katakana_yoon"
+                    "katakana_yoon" -> "katakana_sokuon"
 
                     else -> null
                 }
